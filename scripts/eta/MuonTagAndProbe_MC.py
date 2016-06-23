@@ -59,8 +59,8 @@ Efficiencies = cms.PSet(
             pair_probeMultiplicity = cms.vdouble(0.5, 1.5),
             dzPV = cms.vdouble(-10.0, 10.0),
             dB = cms.vdouble(0.0, 1.5),
-            eta = cms.vdouble(-2.4, 2.4),
-            pt = cms.vdouble(0, 10, 15, 20, 25, 30, 40, 45, 48, 50, 52, 55, 60, 80, 120),
+            eta = cms.vdouble( -2.4, -2.1, -1.6, -1.2, -0.9, -0.3, -0.2, 0.2, 0.3, 0.9, 1.2, 1.6, 2.1, 2.4),
+            pt = cms.vdouble(52, 1000),
             NewHighPtID = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),

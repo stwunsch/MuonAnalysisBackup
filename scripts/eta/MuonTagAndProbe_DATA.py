@@ -20,11 +20,10 @@ TnP Configuration
 InputFileNames = cms.vstring(filename)
 InputDirectoryName = cms.string("tpTree")
 InputTreeName = cms.string("fitter_tree")
-OutputFileName = cms.string("MuonTagAndProbe_MC.root")
+OutputFileName = cms.string("MuonTagAndProbe_DATA.root")
 
 # Defines all the real variables which are intended for use in the efficiencies
 Variables = cms.PSet(
-    weight = cms.vstring('weight', '-10', '10', ''),
     dzPV = cms.vstring('dzPV', '-10.0', '10.0', ''),
     dB = cms.vstring('dB', '0.0', '1.5', ''),
     pair_probeMultiplicity = cms.vstring('pair_probeMultiplicity', '0.20', '30.0', ''),
@@ -53,14 +52,14 @@ Cuts = cms.PSet(
 # Select the parameter whose efficiency is measured
 Efficiencies = cms.PSet(
     MuonEfficiency = cms.PSet(
-        UnbinnedVariables = cms.vstring("mass","weight"),
+        UnbinnedVariables = cms.vstring("mass"),
         EfficiencyCategoryAndState = cms.vstring("Mu50", "pass"),
         BinnedVariables = cms.PSet(
             pair_probeMultiplicity = cms.vdouble(0.5, 1.5),
             dzPV = cms.vdouble(-10.0, 10.0),
             dB = cms.vdouble(0.0, 1.5),
-            eta = cms.vdouble(-2.4, 2.4),
-            pt = cms.vdouble(0, 10, 15, 20, 25, 30, 40, 45, 48, 50, 52, 55, 60, 80, 120),
+            eta = cms.vdouble( -2.4, -2.1, -1.6, -1.2, -0.9, -0.3, -0.2, 0.2, 0.3, 0.9, 1.2, 1.6, 2.1, 2.4),
+            pt = cms.vdouble(52, 1000),
             NewHighPtID = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),
@@ -86,9 +85,6 @@ saveDistributionsPlot = cms.bool(True)
 NumCPU = cms.uint32(1) # Leave to 1 for now, RooFit gives funny results otherwise
 SaveWorkspace = cms.bool(False)
 
-# Set the variable for the MC weights
-WeightVariable = cms.string("weight")
-
 """
 Basic Process Setup
 """
@@ -101,7 +97,7 @@ process.source = cms.Source("EmptySource")
 process.maxEvents = cms.untracked.PSet(input = cms.untracked.int32(1))
 
 """
-Define MC TnP Process
+Define DATA TnP Process
 """
 
 process.TnP = cms.EDAnalyzer("TagProbeFitTreeAnalyzer",
