@@ -3,17 +3,24 @@ Imports
 """
 
 import numpy as np
+import sys
 import FWCore.ParameterSet.Config as cms
+
+# Get command line arguments (the filename)
+if len(sys.argv)!=3:
+    print "[ERROR] Call the script this way: cmsRun <this script> <path to root file>"
+else:
+    filename = sys.argv[2]
 
 """
 TnP Configuration
 """
 
 # Set the appropriate tree and folder of the input file and define the output file
-InputFileNames = cms.vstring("file://../data/TnPTree_80X_Run2016B_v2_DCSOnly_RunList.root")
+InputFileNames = cms.vstring(filename)
 InputDirectoryName = cms.string("tpTree")
 InputTreeName = cms.string("fitter_tree")
-OutputFileName = cms.string("data/MuonTagAndProbe_DATA.root")
+OutputFileName = cms.string("MuonTagAndProbe_DATA.root")
 
 # Defines all the real variables which are intended for use in the efficiencies
 Variables = cms.PSet(
