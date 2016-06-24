@@ -7,10 +7,10 @@ import sys
 import FWCore.ParameterSet.Config as cms
 
 # Get command line arguments (the filename)
-if len(sys.argv)!=3:
-    print "[ERROR] Call the script this way: cmsRun <this script> <path to root file>"
+if len(sys.argv)<3:
+    print "[ERROR] Call the script this way: cmsRun <this script> <paths to root files>"
 else:
-    filename = sys.argv[2]
+    filename = sys.argv[2:]
 
 """
 TnP Configuration
@@ -30,7 +30,7 @@ Variables = cms.PSet(
     mass = cms.vstring('Tag-muon Mass', '80', '100', 'GeV/c^{2}'),
     pt = cms.vstring('muon p_{T}', '0', '1000', 'GeV/c'),
     eta = cms.vstring('muon #eta', '-2.4', '2.4', '-'),
-    run = cms.vstring('run', '271036', '274240', '')
+    run = cms.vstring('Run number', '-999', '999999', '')
 )
 
 # Defines all the discrete variables which are intended for use in the efficiencies
@@ -59,9 +59,9 @@ Efficiencies = cms.PSet(
             pair_probeMultiplicity = cms.vdouble(0.5, 1.5),
             dzPV = cms.vdouble(-10.0, 10.0),
             dB = cms.vdouble(0.0, 1.5),
-            eta = cms.vdouble(-2.4, 2.4),
-            pt = cms.vdouble(0, 10, 15, 20, 25, 30, 40, 45, 48, 50, 52, 55, 60, 80, 120),
-            run = cms.vint32(271036, 274240),
+            eta = cms.vdouble(-2.4, -2.1, -1.6, -1.2, -0.9, -0.3, -0.2, 0.2, 0.3, 0.9, 1.2, 1.6, 2.1, 2.4),
+            pt = cms.vdouble(52, 1000),
+            run = cms.vdouble(271036, 273422),
             NewHighPtID = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),

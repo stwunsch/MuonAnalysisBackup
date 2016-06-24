@@ -64,19 +64,21 @@ Efficiencies = cms.PSet(
             NewHighPtID = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),
-        BinToPDFmap = cms.vstring("voigtPlusExpo"),
+        BinToPDFmap = cms.vstring("vpvPlusExpo"),
     )
 )
 
 # Define which PDFs for signal and background are fitted to the data
 PDFs = cms.PSet(
-    voigtPlusExpo = cms.vstring(
-        "Voigtian::signal(mass, mean[90,80,100], width[2.495], sigma[3,1,20])",
-        "Exponential::backgroundPass(mass, lp[0,-5,5])",
-        "Exponential::backgroundFail(mass, lf[0,-5,5])",
+    vpvPlusExpo = cms.vstring(
+        "Voigtian::signal1(mass, mean1[90,80,100], width[2.495], sigma1[2,1,3])",
+        "Voigtian::signal2(mass, mean2[90,80,100], width,        sigma2[4,2,10])",
+        "SUM::signal(vFrac[0.8,0,1]*signal1, signal2)",
+        "Exponential::backgroundPass(mass, lp[-0.1,-1,0.1])",
+        "Exponential::backgroundFail(mass, lf[-0.1,-1,0.1])",
         "efficiency[0.9,0,1]",
         "signalFractionInPassing[0.9]"
-    ),
+        ),
 )
 
 # Configure the fitting

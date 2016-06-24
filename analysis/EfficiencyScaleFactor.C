@@ -5,9 +5,9 @@
 
 void EfficiencyScaleFactor(){
     // Set the input/output files of MC and DATA efficiency measurements
-    TString inputFile_DATA = "data/MuonTagAndProbe_DATA.root";
-    TString inputFile_MC = "data/MuonTagAndProbe_MC.root";
-    TString outputFile_SCALE = "data/MuonTagAndProbe_SCALE.root";
+    TString inputFile_DATA = "pt/MuonTagAndProbe_DATA.root";
+    TString inputFile_MC = "pt/MuonTagAndProbe_MC.root";
+    TString outputFile_SCALE = "MuonTagAndProbe_SCALE.root";
 
     // Set the path in the ROOT files for MC and DATA
     TString inputPath_DATA = "tpTree/MuonEfficiency/fit_eff_plots/pt_PLOT_NewHighPtID_pass_&_tag_IsoMu20_pass";

@@ -7,10 +7,10 @@ import sys
 import FWCore.ParameterSet.Config as cms
 
 # Get command line arguments (the filename)
-if len(sys.argv)!=3:
-    print "[ERROR] Call the script this way: cmsRun <this script> <path to root file>"
+if len(sys.argv)<3:
+    print "[ERROR] Call the script this way: cmsRun <this script> <paths to root files>"
 else:
-    filename = sys.argv[2]
+    filename = sys.argv[2:]
 
 """
 TnP Configuration
@@ -30,6 +30,7 @@ Variables = cms.PSet(
     mass = cms.vstring('Tag-muon Mass', '80', '100', 'GeV/c^{2}'),
     pt = cms.vstring('muon p_{T}', '0', '1000', 'GeV/c'),
     eta = cms.vstring('muon #eta', '-2.4', '2.4', '-'),
+    run = cms.vstring('Run number', '-999', '999999', '')
 )
 
 # Defines all the discrete variables which are intended for use in the efficiencies
@@ -58,24 +59,27 @@ Efficiencies = cms.PSet(
             pair_probeMultiplicity = cms.vdouble(0.5, 1.5),
             dzPV = cms.vdouble(-10.0, 10.0),
             dB = cms.vdouble(0.0, 1.5),
-            eta = cms.vdouble( -2.4, -2.1, -1.6, -1.2, -0.9, -0.3, -0.2, 0.2, 0.3, 0.9, 1.2, 1.6, 2.1, 2.4),
-            pt = cms.vdouble(52, 1000),
+            eta = cms.vdouble(-2.4, 2.4),
+            pt = cms.vdouble(0, 10, 15, 20, 25, 30, 40, 45, 48, 50, 52, 55, 60, 80, 120),
+            run = cms.vdouble(274094, 274240),
             NewHighPtID = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),
-        BinToPDFmap = cms.vstring("voigtPlusExpo"),
+        BinToPDFmap = cms.vstring("vpvPlusExpo"),
     )
 )
 
 # Define which PDFs for signal and background are fitted to the data
 PDFs = cms.PSet(
-    voigtPlusExpo = cms.vstring(
-        "Voigtian::signal(mass, mean[90,80,100], width[2.495], sigma[3,1,20])",
-        "Exponential::backgroundPass(mass, lp[0,-5,5])",
-        "Exponential::backgroundFail(mass, lf[0,-5,5])",
+    vpvPlusExpo = cms.vstring(
+        "Voigtian::signal1(mass, mean1[90,80,100], width[2.495], sigma1[2,1,3])",
+        "Voigtian::signal2(mass, mean2[90,80,100], width,        sigma2[4,2,10])",
+        "SUM::signal(vFrac[0.8,0,1]*signal1, signal2)",
+        "Exponential::backgroundPass(mass, lp[-0.1,-1,0.1])",
+        "Exponential::backgroundFail(mass, lf[-0.1,-1,0.1])",
         "efficiency[0.9,0,1]",
         "signalFractionInPassing[0.9]"
-    ),
+        ),
 )
 
 # Configure the fitting

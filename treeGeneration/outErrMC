@@ -1,0 +1,1290 @@
+23-Jun-2016 12:26:36 CEST  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/382BADA2-A3DA-E511-9E07-0CC47A4D769E.root
+23-Jun-2016 12:26:41 CEST  Successfully opened file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/382BADA2-A3DA-E511-9E07-0CC47A4D769E.root
+Begin processing the 1st record. Run 1, Event 702, LumiSection 8 at 23-Jun-2016 12:28:17.644 CEST
+23-Jun-2016 12:37:20 CEST  Closed file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/382BADA2-A3DA-E511-9E07-0CC47A4D769E.root
+23-Jun-2016 12:37:20 CEST  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/6200B483-9EDA-E511-A354-0CC47A4D7636.root
+23-Jun-2016 12:37:22 CEST  Successfully opened file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/6200B483-9EDA-E511-A354-0CC47A4D7636.root
+Begin processing the 1001st record. Run 1, Event 2211, LumiSection 23 at 23-Jun-2016 12:37:53.874 CEST
+Begin processing the 2001st record. Run 1, Event 16964, LumiSection 170 at 23-Jun-2016 12:46:56.811 CEST
+23-Jun-2016 12:47:31 CEST  Closed file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/6200B483-9EDA-E511-A354-0CC47A4D7636.root
+23-Jun-2016 12:47:31 CEST  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/70B70BFF-32DB-E511-A4C6-0CC47A4C8E1C.root
+23-Jun-2016 12:47:33 CEST  Successfully opened file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/70B70BFF-32DB-E511-A4C6-0CC47A4C8E1C.root
+23-Jun-2016 12:54:54 CEST  Closed file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/70B70BFF-32DB-E511-A4C6-0CC47A4C8E1C.root
+23-Jun-2016 12:54:54 CEST  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/80CC4165-9FDA-E511-815B-0CC47A78A4A0.root
+23-Jun-2016 12:54:56 CEST  Successfully opened file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/80CC4165-9FDA-E511-815B-0CC47A78A4A0.root
+Begin processing the 3001st record. Run 1, Event 1084, LumiSection 11 at 23-Jun-2016 12:56:17.644 CEST
+Begin processing the 4001st record. Run 1, Event 16242, LumiSection 163 at 23-Jun-2016 13:06:05.545 CEST
+23-Jun-2016 13:07:52 CEST  Closed file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/80CC4165-9FDA-E511-815B-0CC47A78A4A0.root
+23-Jun-2016 13:07:52 CEST  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/80F7131A-33DB-E511-A2B5-0CC47A4D75F6.root
+23-Jun-2016 13:07:54 CEST  Successfully opened file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/80F7131A-33DB-E511-A2B5-0CC47A4D75F6.root
+23-Jun-2016 13:09:51 CEST  Closed file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/80F7131A-33DB-E511-A2B5-0CC47A4D75F6.root
+23-Jun-2016 13:09:51 CEST  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/8AC339C5-A0DA-E511-9B02-0CC47A4C8E96.root
+23-Jun-2016 13:09:53 CEST  Successfully opened file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/8AC339C5-A0DA-E511-9B02-0CC47A4C8E96.root
+Begin processing the 5001st record. Run 1, Event 10044, LumiSection 101 at 23-Jun-2016 13:15:46.831 CEST
+23-Jun-2016 13:20:25 CEST  Closed file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/8AC339C5-A0DA-E511-9B02-0CC47A4C8E96.root
+23-Jun-2016 13:20:26 CEST  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/D279741B-9EDA-E511-A88D-0025905A6110.root
+23-Jun-2016 13:20:28 CEST  Successfully opened file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/D279741B-9EDA-E511-A88D-0025905A6110.root
+Begin processing the 6001st record. Run 1, Event 8323, LumiSection 84 at 23-Jun-2016 13:25:02.939 CEST
+23-Jun-2016 13:29:50 CEST  Closed file root://eoscms.cern.ch//eos/cms/store/relval/CMSSW_8_0_0/RelValZMM_13/GEN-SIM-RECO/PU25ns_80X_mcRun2_asymptotic_v4-v1/10000/D279741B-9EDA-E511-A88D-0025905A6110.root
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 6498 passed = 6498 failed = 0
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+TrigReport     1    0       6498       6258        240          0 tagAndProbe
+TrigReport     1    1       6498       6007        491          0 tagAndProbeSta
+TrigReport     1    2       6498       6498          0          0 tagAndProbeTkGen
+TrigReport     1    3       6498       6498          0          0 tagAndProbeTkL1
+TrigReport     1    4       6498          4       6494          0 fakeRateJetPlusProbe
+TrigReport     1    5       6498         41       6457          0 fakeRateWPlusProbe
+TrigReport     1    6       6498        586       5912          0 fakeRateZPlusProbe
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+
+TrigReport ---------- Modules in Path: tagAndProbe ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0       6498       6498          0          0 goodVertexFilter
+TrigReport     1    1       6498       6498          0          0 noScraping
+TrigReport     1    2       6498       6498          0          0 mergedMuons
+TrigReport     1    3       6498       6498          0          0 muonL1Info
+TrigReport     1    4       6498       6498          0          0 patMuonsWithoutTrigger
+TrigReport     1    5       6498       6498          0          0 patTriggerFull
+TrigReport     1    6       6498       6498          0          0 patTrigger
+TrigReport     1    7       6498       6498          0          0 muonMatchHLTL2
+TrigReport     1    8       6498       6498          0          0 muonMatchHLTL3
+TrigReport     1    9       6498       6498          0          0 muonMatchHLTL3T
+TrigReport     1   10       6498       6498          0          0 muonMatchHLTTkMu
+TrigReport     1   11       6498       6498          0          0 muonMatchHLTCtfTrack
+TrigReport     1   12       6498       6498          0          0 muonMatchHLTCtfTrack2
+TrigReport     1   13       6498       6498          0          0 muonMatchHLTTrackMu
+TrigReport     1   14       6498       6498          0          0 muonMatchHLTTrackIt
+TrigReport     1   15       6498       6498          0          0 patMuonsWithTrigger
+TrigReport     1   16       6498       6498          0          0 goodGenMuons
+TrigReport     1   17       6498       6498          0          0 tagMuons
+TrigReport     1   18       6498       6498          0          0 tagMuonsMCMatch
+TrigReport     1   19       6498       6405         93          0 oneTag
+TrigReport     1   20       6405       6405          0          0 probeMuons
+TrigReport     1   21       6405       6405          0          0 probeMuonsMCMatch
+TrigReport     1   22       6405       6405          0          0 tpPairs
+TrigReport     1   23       6405       6258        147          0 onePair
+TrigReport     1   24       6258       6258          0          0 nverticesModule
+TrigReport     1   25       6258       6258          0          0 njets30Module
+TrigReport     1   26       6258       6258          0          0 probeMuonsIsoDepositTk
+TrigReport     1   27       6258       6258          0          0 probeMuonsIsoFromDepsTk
+TrigReport     1   28       6258       6258          0          0 probeMuonsRelIsoFromDepsTk
+TrigReport     1   29       6258       6258          0          0 probeMuonsIsoValueMaps
+TrigReport     1   30       6258       6258          0          0 computeCorrectedIso
+TrigReport     1   31       6258       6258          0          0 mvaIsoVariables
+TrigReport     1   32       6258       6258          0          0 pfPileUpMVAIso
+TrigReport     1   33       6258       6258          0          0 pfNoPileUpMVAIso
+TrigReport     1   34       6258       6258          0          0 mvaIsoVariablesTag
+TrigReport     1   35       6258       6258          0          0 radialIso
+TrigReport     1   36       6258       6258          0          0 splitTrackTagger
+TrigReport     1   37       6258       6258          0          0 muonDxyPVdzmin
+TrigReport     1   38       6258       6258          0          0 probeMetMt
+TrigReport     1   39       6258       6258          0          0 tagMetMt
+TrigReport     1   40       6258       6258          0          0 particleFlowPtrs
+TrigReport     1   41       6258       6258          0          0 pfPileUpIsoPFBRECO
+TrigReport     1   42       6258       6258          0          0 pfNoPileUpIsoPFBRECO
+TrigReport     1   43       6258       6258          0          0 pfPileUpPFBRECO
+TrigReport     1   44       6258       6258          0          0 pfNoPileUpPFBRECO
+TrigReport     1   45       6258       6258          0          0 pfAllNeutralHadronsPFBRECO
+TrigReport     1   46       6258       6258          0          0 pfAllChargedHadronsPFBRECO
+TrigReport     1   47       6258       6258          0          0 pfAllPhotonsPFBRECO
+TrigReport     1   48       6258       6258          0          0 pfAllChargedParticlesPFBRECO
+TrigReport     1   49       6258       6258          0          0 pfPileUpAllChargedParticlesPFBRECO
+TrigReport     1   50       6258       6258          0          0 pfAllNeutralHadronsAndPhotonsPFBRECO
+TrigReport     1   51       6258       6258          0          0 muonMiniIsoCharged
+TrigReport     1   52       6258       6258          0          0 muonMiniIsoPUCharged
+TrigReport     1   53       6258       6258          0          0 muonMiniIsoNeutrals
+TrigReport     1   54       6258       6258          0          0 muonMiniIsoPhotons
+TrigReport     1   55       6258       6258          0          0 ak4PFCHSL1FastjetCorrector
+TrigReport     1   56       6258       6258          0          0 ak4PFCHSL2RelativeCorrector
+TrigReport     1   57       6258       6258          0          0 ak4PFCHSL3AbsoluteCorrector
+TrigReport     1   58       6258       6258          0          0 ak4PFCHSL1FastL2L3Corrector
+TrigReport     1   59       6258       6258          0          0 jetAwareCleaner
+TrigReport     1   60       6258       6258          0          0 AddPtRatioPtRel
+TrigReport     1   61       6258       6258          0          0 puppiR05
+TrigReport     1   62       6258       6258          0          0 pfAllPhotonsPuppi
+TrigReport     1   63       6258       6258          0          0 pfAllNeutralHadronsPuppi
+TrigReport     1   64       6258       6258          0          0 pfAllChargedHadronsPuppi
+TrigReport     1   65       6258       6258          0          0 muPFIsoDepositCHR04PUPPI
+TrigReport     1   66       6258       6258          0          0 muPFIsoDepositNHR04PUPPI
+TrigReport     1   67       6258       6258          0          0 muPFIsoDepositPhR04PUPPI
+TrigReport     1   68       6258       6258          0          0 muPFIsoValueCHR04PUPPI
+TrigReport     1   69       6258       6258          0          0 muPFIsoValueNHR04PUPPI
+TrigReport     1   70       6258       6258          0          0 muPFIsoValuePhR04PUPPI
+TrigReport     1   71       6258       6258          0          0 packedPFCandidatesNoLep
+TrigReport     1   72       6258       6258          0          0 puppiR05NoLep
+TrigReport     1   73       6258       6258          0          0 pfAllPhotonsPuppiNoLep
+TrigReport     1   74       6258       6258          0          0 pfAllNeutralHadronsPuppiNoLep
+TrigReport     1   75       6258       6258          0          0 pfAllChargedHadronsPuppiNoLep
+TrigReport     1   76       6258       6258          0          0 muPFIsoDepositCHR04PUPPINoLep
+TrigReport     1   77       6258       6258          0          0 muPFIsoDepositNHR04PUPPINoLep
+TrigReport     1   78       6258       6258          0          0 muPFIsoDepositPhR04PUPPINoLep
+TrigReport     1   79       6258       6258          0          0 muPFIsoValueCHR04PUPPINoLep
+TrigReport     1   80       6258       6258          0          0 muPFIsoValueNHR04PUPPINoLep
+TrigReport     1   81       6258       6258          0          0 muPFIsoValuePhR04PUPPINoLep
+TrigReport     1   82       6258       6258          0          0 loadPUPPIisoInValueMaps
+TrigReport     1   83       6258       6258          0          0 probeMultiplicity
+TrigReport     1   84       6258       6258          0          0 probeMultiplicityTMGM
+TrigReport     1   85       6258       6258          0          0 probeMultiplicityPt10M60140
+TrigReport     1   86       6258       6258          0          0 bestPairByZMass
+TrigReport     1   87       6258       6258          0          0 newTunePVals
+TrigReport     1   88       6258       6258          0          0 genWeightInfo
+TrigReport     1   89       6258       6258          0          0 muonDxyPVdzminTags
+TrigReport     1   90       6258       6258          0          0 tpTree
+
+TrigReport ---------- Modules in Path: tagAndProbeSta ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0       6498       6498          0          0 goodVertexFilter
+TrigReport     1    1       6498       6498          0          0 noScraping
+TrigReport     1    2       6498       6498          0          0 muonsSta
+TrigReport     1    3       6498       6498          0          0 muonL1InfoSta
+TrigReport     1    4       6498       6498          0          0 patMuonsWithoutTriggerSta
+TrigReport     1    5       6498       6498          0          0 patTriggerFullSta
+TrigReport     1    6       6498       6498          0          0 patTriggerSta
+TrigReport     1    7       6498       6498          0          0 muonMatchHLTL2Sta
+TrigReport     1    8       6498       6498          0          0 muonMatchHLTL3Sta
+TrigReport     1    9       6498       6498          0          0 muonMatchHLTL3TSta
+TrigReport     1   10       6498       6498          0          0 muonMatchHLTTkMuSta
+TrigReport     1   11       6498       6498          0          0 muonMatchHLTCtfTrackSta
+TrigReport     1   12       6498       6498          0          0 muonMatchHLTCtfTrack2Sta
+TrigReport     1   13       6498       6498          0          0 muonMatchHLTTrackMuSta
+TrigReport     1   14       6498       6498          0          0 muonMatchHLTTrackItSta
+TrigReport     1   15       6498       6498          0          0 patMuonsWithTriggerSta
+TrigReport     1   16       6498       6498          0          0 tagMuons
+TrigReport     1   17       6498       6498          0          0 tagMuonsMCMatch
+TrigReport     1   18       6498       6405         93          0 oneTag
+TrigReport     1   19       6405       6405          0          0 probeMuonsSta
+TrigReport     1   20       6405       6405          0          0 probeMuonsMCMatchSta
+TrigReport     1   21       6405       6405          0          0 tpPairsSta
+TrigReport     1   22       6405       6007        398          0 onePairSta
+TrigReport     1   23       6007       6007          0          0 nverticesModule
+TrigReport     1   24       6007       6007          0          0 pCutTracks
+TrigReport     1   25       6007       6007          0          0 tkTracks
+TrigReport     1   26       6007       6007          0          0 tkTracksNoZ
+TrigReport     1   27       6007       6007          0          0 tracksNoMuonSeeded
+TrigReport     1   28       6007       6007          0          0 pCutTracks0
+TrigReport     1   29       6007       6007          0          0 tkTracks0
+TrigReport     1   30       6007       6007          0          0 tkTracksNoZ0
+TrigReport     1   31       6007       6007          0          0 staToTkMatch
+TrigReport     1   32       6007       6007          0          0 staToTkMatch0
+TrigReport     1   33       6007       6007          0          0 staToTkMatchNoZ
+TrigReport     1   34       6007       6007          0          0 staToTkMatchNoZ0
+TrigReport     1   35       6007       6007          0          0 njets30ModuleSta
+TrigReport     1   36       6007       6007          0          0 tpTreeSta
+
+TrigReport ---------- Modules in Path: tagAndProbeTkGen ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0       6498       6498          0          0 goodVertexFilter
+TrigReport     1    1       6498       6498          0          0 noScraping
+TrigReport     1    2       6498       6498          0          0 probeGen
+TrigReport     1    3       6498       6498          0          0 tpPairsTkGen
+TrigReport     1    4       6498       6498          0          0 pCutTracks
+TrigReport     1    5       6498       6498          0          0 tkTracks
+TrigReport     1    6       6498       6498          0          0 tkTracksNoZ
+TrigReport     1    7       6498       6498          0          0 tracksNoMuonSeeded
+TrigReport     1    8       6498       6498          0          0 pCutTracks0
+TrigReport     1    9       6498       6498          0          0 tkTracks0
+TrigReport     1   10       6498       6498          0          0 tkTracksNoZ0
+TrigReport     1   11       6498       6498          0          0 genToTkMatch
+TrigReport     1   12       6498       6498          0          0 genToTkMatchNoZ
+TrigReport     1   13       6498       6498          0          0 genToTkMatch0
+TrigReport     1   14       6498       6498          0          0 genToTkMatchNoZ0
+TrigReport     1   15       6498       6498          0          0 probeMuonsMCMatchGen
+TrigReport     1   16       6498       6498          0          0 nverticesModule
+TrigReport     1   17       6498       6498          0          0 tpTreeGen
+
+TrigReport ---------- Modules in Path: tagAndProbeTkL1 ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0       6498       6498          0          0 goodVertexFilter
+TrigReport     1    1       6498       6498          0          0 noScraping
+TrigReport     1    2       6498       6498          0          0 probeL1
+TrigReport     1    3       6498       6498          0          0 tpPairsTkL1
+TrigReport     1    4       6498       6498          0          0 pCutTracks
+TrigReport     1    5       6498       6498          0          0 tkTracks
+TrigReport     1    6       6498       6498          0          0 tkTracksNoZ
+TrigReport     1    7       6498       6498          0          0 tracksNoMuonSeeded
+TrigReport     1    8       6498       6498          0          0 pCutTracks0
+TrigReport     1    9       6498       6498          0          0 tkTracks0
+TrigReport     1   10       6498       6498          0          0 tkTracksNoZ0
+TrigReport     1   11       6498       6498          0          0 l1ToTkMatch
+TrigReport     1   12       6498       6498          0          0 l1ToTkMatchNoZ
+TrigReport     1   13       6498       6498          0          0 l1ToTkMatch0
+TrigReport     1   14       6498       6498          0          0 l1ToTkMatchNoZ0
+TrigReport     1   15       6498       6498          0          0 probeMuonsMCMatchL1
+TrigReport     1   16       6498       6498          0          0 nverticesModule
+TrigReport     1   17       6498       6498          0          0 tpTreeL1
+
+TrigReport ---------- Modules in Path: fakeRateJetPlusProbe ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0       6498       6498          0          0 goodVertexFilter
+TrigReport     1    1       6498       6498          0          0 noScraping
+TrigReport     1    2       6498       6498          0          0 mergedMuons
+TrigReport     1    3       6498       6498          0          0 muonL1Info
+TrigReport     1    4       6498       6498          0          0 patMuonsWithoutTrigger
+TrigReport     1    5       6498       6498          0          0 patTriggerFull
+TrigReport     1    6       6498       6498          0          0 patTrigger
+TrigReport     1    7       6498       6498          0          0 muonMatchHLTL2
+TrigReport     1    8       6498       6498          0          0 muonMatchHLTL3
+TrigReport     1    9       6498       6498          0          0 muonMatchHLTL3T
+TrigReport     1   10       6498       6498          0          0 muonMatchHLTTkMu
+TrigReport     1   11       6498       6498          0          0 muonMatchHLTCtfTrack
+TrigReport     1   12       6498       6498          0          0 muonMatchHLTCtfTrack2
+TrigReport     1   13       6498       6498          0          0 muonMatchHLTTrackMu
+TrigReport     1   14       6498       6498          0          0 muonMatchHLTTrackIt
+TrigReport     1   15       6498       6498          0          0 patMuonsWithTrigger
+TrigReport     1   16       6498       6498          0          0 tagMuons
+TrigReport     1   17       6498       6498          0          0 probeMuons
+TrigReport     1   18       6498       6498          0          0 probeMuonsIsoDepositTk
+TrigReport     1   19       6498       6498          0          0 probeMuonsIsoFromDepsTk
+TrigReport     1   20       6498       6498          0          0 probeMuonsRelIsoFromDepsTk
+TrigReport     1   21       6498       6498          0          0 probeMuonsIsoValueMaps
+TrigReport     1   22       6498       6498          0          0 computeCorrectedIso
+TrigReport     1   23       6498       6498          0          0 mvaIsoVariables
+TrigReport     1   24       6498       6498          0          0 pfPileUpMVAIso
+TrigReport     1   25       6498       6498          0          0 pfNoPileUpMVAIso
+TrigReport     1   26       6498       6498          0          0 mvaIsoVariablesTag
+TrigReport     1   27       6498       6498          0          0 radialIso
+TrigReport     1   28       6498       6498          0          0 splitTrackTagger
+TrigReport     1   29       6498       6498          0          0 muonDxyPVdzmin
+TrigReport     1   30       6498       6498          0          0 probeMetMt
+TrigReport     1   31       6498       6498          0          0 tagMetMt
+TrigReport     1   32       6498       6498          0          0 particleFlowPtrs
+TrigReport     1   33       6498       6498          0          0 pfPileUpIsoPFBRECO
+TrigReport     1   34       6498       6498          0          0 pfNoPileUpIsoPFBRECO
+TrigReport     1   35       6498       6498          0          0 pfPileUpPFBRECO
+TrigReport     1   36       6498       6498          0          0 pfNoPileUpPFBRECO
+TrigReport     1   37       6498       6498          0          0 pfAllNeutralHadronsPFBRECO
+TrigReport     1   38       6498       6498          0          0 pfAllChargedHadronsPFBRECO
+TrigReport     1   39       6498       6498          0          0 pfAllPhotonsPFBRECO
+TrigReport     1   40       6498       6498          0          0 pfAllChargedParticlesPFBRECO
+TrigReport     1   41       6498       6498          0          0 pfPileUpAllChargedParticlesPFBRECO
+TrigReport     1   42       6498       6498          0          0 pfAllNeutralHadronsAndPhotonsPFBRECO
+TrigReport     1   43       6498       6498          0          0 muonMiniIsoCharged
+TrigReport     1   44       6498       6498          0          0 muonMiniIsoPUCharged
+TrigReport     1   45       6498       6498          0          0 muonMiniIsoNeutrals
+TrigReport     1   46       6498       6498          0          0 muonMiniIsoPhotons
+TrigReport     1   47       6498       6498          0          0 ak4PFCHSL1FastjetCorrector
+TrigReport     1   48       6498       6498          0          0 ak4PFCHSL2RelativeCorrector
+TrigReport     1   49       6498       6498          0          0 ak4PFCHSL3AbsoluteCorrector
+TrigReport     1   50       6498       6498          0          0 ak4PFCHSL1FastL2L3Corrector
+TrigReport     1   51       6498       6498          0          0 jetAwareCleaner
+TrigReport     1   52       6498       6498          0          0 AddPtRatioPtRel
+TrigReport     1   53       6498       6498          0          0 puppiR05
+TrigReport     1   54       6498       6498          0          0 pfAllPhotonsPuppi
+TrigReport     1   55       6498       6498          0          0 pfAllNeutralHadronsPuppi
+TrigReport     1   56       6498       6498          0          0 pfAllChargedHadronsPuppi
+TrigReport     1   57       6498       6498          0          0 muPFIsoDepositCHR04PUPPI
+TrigReport     1   58       6498       6498          0          0 muPFIsoDepositNHR04PUPPI
+TrigReport     1   59       6498       6498          0          0 muPFIsoDepositPhR04PUPPI
+TrigReport     1   60       6498       6498          0          0 muPFIsoValueCHR04PUPPI
+TrigReport     1   61       6498       6498          0          0 muPFIsoValueNHR04PUPPI
+TrigReport     1   62       6498       6498          0          0 muPFIsoValuePhR04PUPPI
+TrigReport     1   63       6498       6498          0          0 packedPFCandidatesNoLep
+TrigReport     1   64       6498       6498          0          0 puppiR05NoLep
+TrigReport     1   65       6498       6498          0          0 pfAllPhotonsPuppiNoLep
+TrigReport     1   66       6498       6498          0          0 pfAllNeutralHadronsPuppiNoLep
+TrigReport     1   67       6498       6498          0          0 pfAllChargedHadronsPuppiNoLep
+TrigReport     1   68       6498       6498          0          0 muPFIsoDepositCHR04PUPPINoLep
+TrigReport     1   69       6498       6498          0          0 muPFIsoDepositNHR04PUPPINoLep
+TrigReport     1   70       6498       6498          0          0 muPFIsoDepositPhR04PUPPINoLep
+TrigReport     1   71       6498       6498          0          0 muPFIsoValueCHR04PUPPINoLep
+TrigReport     1   72       6498       6498          0          0 muPFIsoValueNHR04PUPPINoLep
+TrigReport     1   73       6498       6498          0          0 muPFIsoValuePhR04PUPPINoLep
+TrigReport     1   74       6498       6498          0          0 loadPUPPIisoInValueMaps
+TrigReport     1   75       6498       6498          0          0 probeRecoMuons
+TrigReport     1   76       6498       6498          0          0 diMuPairs
+TrigReport     1   77       6498        374       6124          0 diLepVetoForJets
+TrigReport     1   78        374        374          0          0 wMuNuForVeto
+TrigReport     1   79        374          7        367          0 wMuNuVeto
+TrigReport     1   80          7          7          0          0 realJets
+TrigReport     1   81          7          7          0          0 leadingJet
+TrigReport     1   82          7          7          0          0 jetPlusProbe
+TrigReport     1   83          7          4          3          0 jetPlusProbeFilter
+TrigReport     1   84          4          4          0          0 fakeRateJetPlusProbeTree
+
+TrigReport ---------- Modules in Path: fakeRateWPlusProbe ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0       6498       6498          0          0 goodVertexFilter
+TrigReport     1    1       6498       6498          0          0 noScraping
+TrigReport     1    2       6498       6498          0          0 mergedMuons
+TrigReport     1    3       6498       6498          0          0 muonL1Info
+TrigReport     1    4       6498       6498          0          0 patMuonsWithoutTrigger
+TrigReport     1    5       6498       6498          0          0 patTriggerFull
+TrigReport     1    6       6498       6498          0          0 patTrigger
+TrigReport     1    7       6498       6498          0          0 muonMatchHLTL2
+TrigReport     1    8       6498       6498          0          0 muonMatchHLTL3
+TrigReport     1    9       6498       6498          0          0 muonMatchHLTL3T
+TrigReport     1   10       6498       6498          0          0 muonMatchHLTTkMu
+TrigReport     1   11       6498       6498          0          0 muonMatchHLTCtfTrack
+TrigReport     1   12       6498       6498          0          0 muonMatchHLTCtfTrack2
+TrigReport     1   13       6498       6498          0          0 muonMatchHLTTrackMu
+TrigReport     1   14       6498       6498          0          0 muonMatchHLTTrackIt
+TrigReport     1   15       6498       6498          0          0 patMuonsWithTrigger
+TrigReport     1   16       6498       6498          0          0 tagMuons
+TrigReport     1   17       6498       6498          0          0 probeMuons
+TrigReport     1   18       6498       6498          0          0 probeMuonsIsoDepositTk
+TrigReport     1   19       6498       6498          0          0 probeMuonsIsoFromDepsTk
+TrigReport     1   20       6498       6498          0          0 probeMuonsRelIsoFromDepsTk
+TrigReport     1   21       6498       6498          0          0 probeMuonsIsoValueMaps
+TrigReport     1   22       6498       6498          0          0 computeCorrectedIso
+TrigReport     1   23       6498       6498          0          0 mvaIsoVariables
+TrigReport     1   24       6498       6498          0          0 pfPileUpMVAIso
+TrigReport     1   25       6498       6498          0          0 pfNoPileUpMVAIso
+TrigReport     1   26       6498       6498          0          0 mvaIsoVariablesTag
+TrigReport     1   27       6498       6498          0          0 radialIso
+TrigReport     1   28       6498       6498          0          0 splitTrackTagger
+TrigReport     1   29       6498       6498          0          0 muonDxyPVdzmin
+TrigReport     1   30       6498       6498          0          0 probeMetMt
+TrigReport     1   31       6498       6498          0          0 tagMetMt
+TrigReport     1   32       6498       6498          0          0 particleFlowPtrs
+TrigReport     1   33       6498       6498          0          0 pfPileUpIsoPFBRECO
+TrigReport     1   34       6498       6498          0          0 pfNoPileUpIsoPFBRECO
+TrigReport     1   35       6498       6498          0          0 pfPileUpPFBRECO
+TrigReport     1   36       6498       6498          0          0 pfNoPileUpPFBRECO
+TrigReport     1   37       6498       6498          0          0 pfAllNeutralHadronsPFBRECO
+TrigReport     1   38       6498       6498          0          0 pfAllChargedHadronsPFBRECO
+TrigReport     1   39       6498       6498          0          0 pfAllPhotonsPFBRECO
+TrigReport     1   40       6498       6498          0          0 pfAllChargedParticlesPFBRECO
+TrigReport     1   41       6498       6498          0          0 pfPileUpAllChargedParticlesPFBRECO
+TrigReport     1   42       6498       6498          0          0 pfAllNeutralHadronsAndPhotonsPFBRECO
+TrigReport     1   43       6498       6498          0          0 muonMiniIsoCharged
+TrigReport     1   44       6498       6498          0          0 muonMiniIsoPUCharged
+TrigReport     1   45       6498       6498          0          0 muonMiniIsoNeutrals
+TrigReport     1   46       6498       6498          0          0 muonMiniIsoPhotons
+TrigReport     1   47       6498       6498          0          0 ak4PFCHSL1FastjetCorrector
+TrigReport     1   48       6498       6498          0          0 ak4PFCHSL2RelativeCorrector
+TrigReport     1   49       6498       6498          0          0 ak4PFCHSL3AbsoluteCorrector
+TrigReport     1   50       6498       6498          0          0 ak4PFCHSL1FastL2L3Corrector
+TrigReport     1   51       6498       6498          0          0 jetAwareCleaner
+TrigReport     1   52       6498       6498          0          0 AddPtRatioPtRel
+TrigReport     1   53       6498       6498          0          0 puppiR05
+TrigReport     1   54       6498       6498          0          0 pfAllPhotonsPuppi
+TrigReport     1   55       6498       6498          0          0 pfAllNeutralHadronsPuppi
+TrigReport     1   56       6498       6498          0          0 pfAllChargedHadronsPuppi
+TrigReport     1   57       6498       6498          0          0 muPFIsoDepositCHR04PUPPI
+TrigReport     1   58       6498       6498          0          0 muPFIsoDepositNHR04PUPPI
+TrigReport     1   59       6498       6498          0          0 muPFIsoDepositPhR04PUPPI
+TrigReport     1   60       6498       6498          0          0 muPFIsoValueCHR04PUPPI
+TrigReport     1   61       6498       6498          0          0 muPFIsoValueNHR04PUPPI
+TrigReport     1   62       6498       6498          0          0 muPFIsoValuePhR04PUPPI
+TrigReport     1   63       6498       6498          0          0 packedPFCandidatesNoLep
+TrigReport     1   64       6498       6498          0          0 puppiR05NoLep
+TrigReport     1   65       6498       6498          0          0 pfAllPhotonsPuppiNoLep
+TrigReport     1   66       6498       6498          0          0 pfAllNeutralHadronsPuppiNoLep
+TrigReport     1   67       6498       6498          0          0 pfAllChargedHadronsPuppiNoLep
+TrigReport     1   68       6498       6498          0          0 muPFIsoDepositCHR04PUPPINoLep
+TrigReport     1   69       6498       6498          0          0 muPFIsoDepositNHR04PUPPINoLep
+TrigReport     1   70       6498       6498          0          0 muPFIsoDepositPhR04PUPPINoLep
+TrigReport     1   71       6498       6498          0          0 muPFIsoValueCHR04PUPPINoLep
+TrigReport     1   72       6498       6498          0          0 muPFIsoValueNHR04PUPPINoLep
+TrigReport     1   73       6498       6498          0          0 muPFIsoValuePhR04PUPPINoLep
+TrigReport     1   74       6498       6498          0          0 loadPUPPIisoInValueMaps
+TrigReport     1   75       6498       6498          0          0 probeRecoMuons
+TrigReport     1   76       6498       6498          0          0 diMuPairs
+TrigReport     1   77       6498       6498          0          0 wMuNu
+TrigReport     1   78       6498       6498          0          0 wPlusProbe
+TrigReport     1   79       6498       4183       2315          0 wPlusProbeFilter
+TrigReport     1   80       4183        128       4055          0 zVetoForW
+TrigReport     1   81        128        128          0          0 jetsForVeto
+TrigReport     1   82        128         41         87          0 jetVeto
+TrigReport     1   83         41         41          0          0 fakeRateWPlusProbeTree
+
+TrigReport ---------- Modules in Path: fakeRateZPlusProbe ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0       6498       6498          0          0 goodVertexFilter
+TrigReport     1    1       6498       6498          0          0 noScraping
+TrigReport     1    2       6498       6498          0          0 mergedMuons
+TrigReport     1    3       6498       6498          0          0 muonL1Info
+TrigReport     1    4       6498       6498          0          0 patMuonsWithoutTrigger
+TrigReport     1    5       6498       6498          0          0 patTriggerFull
+TrigReport     1    6       6498       6498          0          0 patTrigger
+TrigReport     1    7       6498       6498          0          0 muonMatchHLTL2
+TrigReport     1    8       6498       6498          0          0 muonMatchHLTL3
+TrigReport     1    9       6498       6498          0          0 muonMatchHLTL3T
+TrigReport     1   10       6498       6498          0          0 muonMatchHLTTkMu
+TrigReport     1   11       6498       6498          0          0 muonMatchHLTCtfTrack
+TrigReport     1   12       6498       6498          0          0 muonMatchHLTCtfTrack2
+TrigReport     1   13       6498       6498          0          0 muonMatchHLTTrackMu
+TrigReport     1   14       6498       6498          0          0 muonMatchHLTTrackIt
+TrigReport     1   15       6498       6498          0          0 patMuonsWithTrigger
+TrigReport     1   16       6498       6498          0          0 tagMuons
+TrigReport     1   17       6498       6498          0          0 probeMuons
+TrigReport     1   18       6498       6498          0          0 probeMuonsIsoDepositTk
+TrigReport     1   19       6498       6498          0          0 probeMuonsIsoFromDepsTk
+TrigReport     1   20       6498       6498          0          0 probeMuonsRelIsoFromDepsTk
+TrigReport     1   21       6498       6498          0          0 probeMuonsIsoValueMaps
+TrigReport     1   22       6498       6498          0          0 computeCorrectedIso
+TrigReport     1   23       6498       6498          0          0 mvaIsoVariables
+TrigReport     1   24       6498       6498          0          0 pfPileUpMVAIso
+TrigReport     1   25       6498       6498          0          0 pfNoPileUpMVAIso
+TrigReport     1   26       6498       6498          0          0 mvaIsoVariablesTag
+TrigReport     1   27       6498       6498          0          0 radialIso
+TrigReport     1   28       6498       6498          0          0 splitTrackTagger
+TrigReport     1   29       6498       6498          0          0 muonDxyPVdzmin
+TrigReport     1   30       6498       6498          0          0 probeMetMt
+TrigReport     1   31       6498       6498          0          0 tagMetMt
+TrigReport     1   32       6498       6498          0          0 particleFlowPtrs
+TrigReport     1   33       6498       6498          0          0 pfPileUpIsoPFBRECO
+TrigReport     1   34       6498       6498          0          0 pfNoPileUpIsoPFBRECO
+TrigReport     1   35       6498       6498          0          0 pfPileUpPFBRECO
+TrigReport     1   36       6498       6498          0          0 pfNoPileUpPFBRECO
+TrigReport     1   37       6498       6498          0          0 pfAllNeutralHadronsPFBRECO
+TrigReport     1   38       6498       6498          0          0 pfAllChargedHadronsPFBRECO
+TrigReport     1   39       6498       6498          0          0 pfAllPhotonsPFBRECO
+TrigReport     1   40       6498       6498          0          0 pfAllChargedParticlesPFBRECO
+TrigReport     1   41       6498       6498          0          0 pfPileUpAllChargedParticlesPFBRECO
+TrigReport     1   42       6498       6498          0          0 pfAllNeutralHadronsAndPhotonsPFBRECO
+TrigReport     1   43       6498       6498          0          0 muonMiniIsoCharged
+TrigReport     1   44       6498       6498          0          0 muonMiniIsoPUCharged
+TrigReport     1   45       6498       6498          0          0 muonMiniIsoNeutrals
+TrigReport     1   46       6498       6498          0          0 muonMiniIsoPhotons
+TrigReport     1   47       6498       6498          0          0 ak4PFCHSL1FastjetCorrector
+TrigReport     1   48       6498       6498          0          0 ak4PFCHSL2RelativeCorrector
+TrigReport     1   49       6498       6498          0          0 ak4PFCHSL3AbsoluteCorrector
+TrigReport     1   50       6498       6498          0          0 ak4PFCHSL1FastL2L3Corrector
+TrigReport     1   51       6498       6498          0          0 jetAwareCleaner
+TrigReport     1   52       6498       6498          0          0 AddPtRatioPtRel
+TrigReport     1   53       6498       6498          0          0 puppiR05
+TrigReport     1   54       6498       6498          0          0 pfAllPhotonsPuppi
+TrigReport     1   55       6498       6498          0          0 pfAllNeutralHadronsPuppi
+TrigReport     1   56       6498       6498          0          0 pfAllChargedHadronsPuppi
+TrigReport     1   57       6498       6498          0          0 muPFIsoDepositCHR04PUPPI
+TrigReport     1   58       6498       6498          0          0 muPFIsoDepositNHR04PUPPI
+TrigReport     1   59       6498       6498          0          0 muPFIsoDepositPhR04PUPPI
+TrigReport     1   60       6498       6498          0          0 muPFIsoValueCHR04PUPPI
+TrigReport     1   61       6498       6498          0          0 muPFIsoValueNHR04PUPPI
+TrigReport     1   62       6498       6498          0          0 muPFIsoValuePhR04PUPPI
+TrigReport     1   63       6498       6498          0          0 packedPFCandidatesNoLep
+TrigReport     1   64       6498       6498          0          0 puppiR05NoLep
+TrigReport     1   65       6498       6498          0          0 pfAllPhotonsPuppiNoLep
+TrigReport     1   66       6498       6498          0          0 pfAllNeutralHadronsPuppiNoLep
+TrigReport     1   67       6498       6498          0          0 pfAllChargedHadronsPuppiNoLep
+TrigReport     1   68       6498       6498          0          0 muPFIsoDepositCHR04PUPPINoLep
+TrigReport     1   69       6498       6498          0          0 muPFIsoDepositNHR04PUPPINoLep
+TrigReport     1   70       6498       6498          0          0 muPFIsoDepositPhR04PUPPINoLep
+TrigReport     1   71       6498       6498          0          0 muPFIsoValueCHR04PUPPINoLep
+TrigReport     1   72       6498       6498          0          0 muPFIsoValueNHR04PUPPINoLep
+TrigReport     1   73       6498       6498          0          0 muPFIsoValuePhR04PUPPINoLep
+TrigReport     1   74       6498       6498          0          0 loadPUPPIisoInValueMaps
+TrigReport     1   75       6498       6498          0          0 probeRecoMuons
+TrigReport     1   76       6498       6498          0          0 zForFakes
+TrigReport     1   77       6498       6498          0          0 zPlusProbe
+TrigReport     1   78       6498       2280       4218          0 zPlusProbeFilter
+TrigReport     1   79       2280        951       1329          0 metVetoForZ
+TrigReport     1   80        951        586        365          0 fourthLepVetoForZ
+TrigReport     1   81        586        586          0          0 fakeRateZPlusProbeTree
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited   Executed     Passed     Failed      Error Name
+TrigReport      25752       6498       6498          0          0 AddPtRatioPtRel
+TrigReport       6498       6498       6498          0          0 TriggerResults
+TrigReport      25752       6498       6498          0          0 ak4PFCHSL1FastL2L3Corrector
+TrigReport      25752       6498       6498          0          0 ak4PFCHSL1FastjetCorrector
+TrigReport      25752       6498       6498          0          0 ak4PFCHSL2RelativeCorrector
+TrigReport      25752       6498       6498          0          0 ak4PFCHSL3AbsoluteCorrector
+TrigReport       6258       6258       6258          0          0 bestPairByZMass
+TrigReport      25752       6498       6498          0          0 computeCorrectedIso
+TrigReport       6498       6498       6124        374          0 diLepVetoForJets
+TrigReport      12996       6498       6498          0          0 diMuPairs
+TrigReport          4          4          4          0          0 fakeRateJetPlusProbeTree
+TrigReport         41         41         41          0          0 fakeRateWPlusProbeTree
+TrigReport        586        586        586          0          0 fakeRateZPlusProbeTree
+TrigReport        951        951        365        586          0 fourthLepVetoForZ
+TrigReport       6498       6498       6498          0          0 genToTkMatch
+TrigReport       6498       6498       6498          0          0 genToTkMatch0
+TrigReport       6498       6498       6498          0          0 genToTkMatchNoZ
+TrigReport       6498       6498       6498          0          0 genToTkMatchNoZ0
+TrigReport       6258       6258       6258          0          0 genWeightInfo
+TrigReport       6498       6498       6498          0          0 goodGenMuons
+TrigReport      45486       6498       6498          0          0 goodVertexFilter
+TrigReport      25752       6498       6498          0          0 jetAwareCleaner
+TrigReport          7          7          7          0          0 jetPlusProbe
+TrigReport          7          7          4          3          0 jetPlusProbeFilter
+TrigReport        128        128         87         41          0 jetVeto
+TrigReport        128        128        128          0          0 jetsForVeto
+TrigReport       6498       6498       6498          0          0 l1ToTkMatch
+TrigReport       6498       6498       6498          0          0 l1ToTkMatch0
+TrigReport       6498       6498       6498          0          0 l1ToTkMatchNoZ
+TrigReport       6498       6498       6498          0          0 l1ToTkMatchNoZ0
+TrigReport          7          7          7          0          0 leadingJet
+TrigReport      25752       6498       6498          0          0 loadPUPPIisoInValueMaps
+TrigReport      25992       6498       6498          0          0 mergedMuons
+TrigReport       2280       2280       1329        951          0 metVetoForZ
+TrigReport      25752       6498       6498          0          0 muPFIsoDepositCHR04PUPPI
+TrigReport      25752       6498       6498          0          0 muPFIsoDepositCHR04PUPPINoLep
+TrigReport      25752       6498       6498          0          0 muPFIsoDepositNHR04PUPPI
+TrigReport      25752       6498       6498          0          0 muPFIsoDepositNHR04PUPPINoLep
+TrigReport      25752       6498       6498          0          0 muPFIsoDepositPhR04PUPPI
+TrigReport      25752       6498       6498          0          0 muPFIsoDepositPhR04PUPPINoLep
+TrigReport      25752       6498       6498          0          0 muPFIsoValueCHR04PUPPI
+TrigReport      25752       6498       6498          0          0 muPFIsoValueCHR04PUPPINoLep
+TrigReport      25752       6498       6498          0          0 muPFIsoValueNHR04PUPPI
+TrigReport      25752       6498       6498          0          0 muPFIsoValueNHR04PUPPINoLep
+TrigReport      25752       6498       6498          0          0 muPFIsoValuePhR04PUPPI
+TrigReport      25752       6498       6498          0          0 muPFIsoValuePhR04PUPPINoLep
+TrigReport      25752       6498       6498          0          0 muonDxyPVdzmin
+TrigReport       6258       6258       6258          0          0 muonDxyPVdzminTags
+TrigReport      25992       6498       6498          0          0 muonL1Info
+TrigReport       6498       6498       6498          0          0 muonL1InfoSta
+TrigReport      25992       6498       6498          0          0 muonMatchHLTCtfTrack
+TrigReport      25992       6498       6498          0          0 muonMatchHLTCtfTrack2
+TrigReport       6498       6498       6498          0          0 muonMatchHLTCtfTrack2Sta
+TrigReport       6498       6498       6498          0          0 muonMatchHLTCtfTrackSta
+TrigReport      25992       6498       6498          0          0 muonMatchHLTL2
+TrigReport       6498       6498       6498          0          0 muonMatchHLTL2Sta
+TrigReport      25992       6498       6498          0          0 muonMatchHLTL3
+TrigReport       6498       6498       6498          0          0 muonMatchHLTL3Sta
+TrigReport      25992       6498       6498          0          0 muonMatchHLTL3T
+TrigReport       6498       6498       6498          0          0 muonMatchHLTL3TSta
+TrigReport      25992       6498       6498          0          0 muonMatchHLTTkMu
+TrigReport       6498       6498       6498          0          0 muonMatchHLTTkMuSta
+TrigReport      25992       6498       6498          0          0 muonMatchHLTTrackIt
+TrigReport       6498       6498       6498          0          0 muonMatchHLTTrackItSta
+TrigReport      25992       6498       6498          0          0 muonMatchHLTTrackMu
+TrigReport       6498       6498       6498          0          0 muonMatchHLTTrackMuSta
+TrigReport      25752       6498       6498          0          0 muonMiniIsoCharged
+TrigReport      25752       6498       6498          0          0 muonMiniIsoNeutrals
+TrigReport      25752       6498       6498          0          0 muonMiniIsoPUCharged
+TrigReport      25752       6498       6498          0          0 muonMiniIsoPhotons
+TrigReport       6498       6498       6498          0          0 muonsSta
+TrigReport      25752       6498       6498          0          0 mvaIsoVariables
+TrigReport      25752       6498       6498          0          0 mvaIsoVariablesTag
+TrigReport       6258       6258       6258          0          0 newTunePVals
+TrigReport       6258       6258       6258          0          0 njets30Module
+TrigReport       6007       6007       6007          0          0 njets30ModuleSta
+TrigReport      45486       6498       6498          0          0 noScraping
+TrigReport      25261       6498       6498          0          0 nverticesModule
+TrigReport       6405       6405       6258        147          0 onePair
+TrigReport       6405       6405       6007        398          0 onePairSta
+TrigReport      12996       6498       6405         93          0 oneTag
+TrigReport      19003       6498       6498          0          0 pCutTracks
+TrigReport      19003       6498       6498          0          0 pCutTracks0
+TrigReport      25752       6498       6498          0          0 packedPFCandidatesNoLep
+TrigReport      25752       6498       6498          0          0 particleFlowPtrs
+TrigReport      25992       6498       6498          0          0 patMuonsWithTrigger
+TrigReport       6498       6498       6498          0          0 patMuonsWithTriggerSta
+TrigReport      25992       6498       6498          0          0 patMuonsWithoutTrigger
+TrigReport       6498       6498       6498          0          0 patMuonsWithoutTriggerSta
+TrigReport      25992       6498       6498          0          0 patTrigger
+TrigReport      25992       6498       6498          0          0 patTriggerFull
+TrigReport       6498       6498       6498          0          0 patTriggerFullSta
+TrigReport       6498       6498       6498          0          0 patTriggerSta
+TrigReport      25752       6498       6498          0          0 pfAllChargedHadronsPFBRECO
+TrigReport      25752       6498       6498          0          0 pfAllChargedHadronsPuppi
+TrigReport      25752       6498       6498          0          0 pfAllChargedHadronsPuppiNoLep
+TrigReport      25752       6498       6498          0          0 pfAllChargedParticlesPFBRECO
+TrigReport      25752       6498       6498          0          0 pfAllNeutralHadronsAndPhotonsPFBRECO
+TrigReport      25752       6498       6498          0          0 pfAllNeutralHadronsPFBRECO
+TrigReport      25752       6498       6498          0          0 pfAllNeutralHadronsPuppi
+TrigReport      25752       6498       6498          0          0 pfAllNeutralHadronsPuppiNoLep
+TrigReport      25752       6498       6498          0          0 pfAllPhotonsPFBRECO
+TrigReport      25752       6498       6498          0          0 pfAllPhotonsPuppi
+TrigReport      25752       6498       6498          0          0 pfAllPhotonsPuppiNoLep
+TrigReport      25752       6498       6498          0          0 pfNoPileUpIsoPFBRECO
+TrigReport      25752       6498       6498          0          0 pfNoPileUpMVAIso
+TrigReport      25752       6498       6498          0          0 pfNoPileUpPFBRECO
+TrigReport      25752       6498       6498          0          0 pfPileUpAllChargedParticlesPFBRECO
+TrigReport      25752       6498       6498          0          0 pfPileUpIsoPFBRECO
+TrigReport      25752       6498       6498          0          0 pfPileUpMVAIso
+TrigReport      25752       6498       6498          0          0 pfPileUpPFBRECO
+TrigReport       6498       6498       6498          0          0 probeGen
+TrigReport       6498       6498       6498          0          0 probeL1
+TrigReport      25752       6498       6498          0          0 probeMetMt
+TrigReport       6258       6258       6258          0          0 probeMultiplicity
+TrigReport       6258       6258       6258          0          0 probeMultiplicityPt10M60140
+TrigReport       6258       6258       6258          0          0 probeMultiplicityTMGM
+TrigReport      25899       6498       6498          0          0 probeMuons
+TrigReport      25752       6498       6498          0          0 probeMuonsIsoDepositTk
+TrigReport      25752       6498       6498          0          0 probeMuonsIsoFromDepsTk
+TrigReport      25752       6498       6498          0          0 probeMuonsIsoValueMaps
+TrigReport       6405       6405       6405          0          0 probeMuonsMCMatch
+TrigReport       6498       6498       6498          0          0 probeMuonsMCMatchGen
+TrigReport       6498       6498       6498          0          0 probeMuonsMCMatchL1
+TrigReport       6405       6405       6405          0          0 probeMuonsMCMatchSta
+TrigReport      25752       6498       6498          0          0 probeMuonsRelIsoFromDepsTk
+TrigReport       6405       6405       6405          0          0 probeMuonsSta
+TrigReport      19494       6498       6498          0          0 probeRecoMuons
+TrigReport      25752       6498       6498          0          0 puppiR05
+TrigReport      25752       6498       6498          0          0 puppiR05NoLep
+TrigReport      25752       6498       6498          0          0 radialIso
+TrigReport          7          7          7          0          0 realJets
+TrigReport      25752       6498       6498          0          0 splitTrackTagger
+TrigReport       6007       6007       6007          0          0 staToTkMatch
+TrigReport       6007       6007       6007          0          0 staToTkMatch0
+TrigReport       6007       6007       6007          0          0 staToTkMatchNoZ
+TrigReport       6007       6007       6007          0          0 staToTkMatchNoZ0
+TrigReport      25752       6498       6498          0          0 tagMetMt
+TrigReport      32490       6498       6498          0          0 tagMuons
+TrigReport      12996       6498       6498          0          0 tagMuonsMCMatch
+TrigReport      19003       6498       6498          0          0 tkTracks
+TrigReport      19003       6498       6498          0          0 tkTracks0
+TrigReport      19003       6498       6498          0          0 tkTracksNoZ
+TrigReport      19003       6498       6498          0          0 tkTracksNoZ0
+TrigReport       6405       6405       6405          0          0 tpPairs
+TrigReport       6405       6405       6405          0          0 tpPairsSta
+TrigReport       6498       6498       6498          0          0 tpPairsTkGen
+TrigReport       6498       6498       6498          0          0 tpPairsTkL1
+TrigReport       6258       6258       6258          0          0 tpTree
+TrigReport       6498       6498       6498          0          0 tpTreeGen
+TrigReport       6498       6498       6498          0          0 tpTreeL1
+TrigReport       6007       6007       6007          0          0 tpTreeSta
+TrigReport      19003       6498       6498          0          0 tracksNoMuonSeeded
+TrigReport       6498       6498       6498          0          0 wMuNu
+TrigReport        374        374        374          0          0 wMuNuForVeto
+TrigReport        374        374        367          7          0 wMuNuVeto
+TrigReport       6498       6498       6498          0          0 wPlusProbe
+TrigReport       6498       6498       4183       2315          0 wPlusProbeFilter
+TrigReport       6498       6498       6498          0          0 zForFakes
+TrigReport       6498       6498       6498          0          0 zPlusProbe
+TrigReport       6498       6498       2280       4218          0 zPlusProbeFilter
+TrigReport       4183       4183       4055        128          0 zVetoForW
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport       event loop CPU/event = 0.531211
+TimeReport      event loop Real/event = 0.580621
+TimeReport     sum Streams Real/event = 0.558521
+TimeReport efficiency CPU/Real/thread = 0.914901
+
+TimeReport ---------- Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport   0.465124     0.465124  tagAndProbe
+TimeReport   0.040643     0.040643  tagAndProbeSta
+TimeReport   0.016388     0.016388  tagAndProbeTkGen
+TimeReport   0.016174     0.016174  tagAndProbeTkL1
+TimeReport   0.014152     0.014152  fakeRateJetPlusProbe
+TimeReport   0.000175     0.000175  fakeRateWPlusProbe
+TimeReport   0.000404     0.000404  fakeRateZPlusProbe
+TimeReport  per event     per exec  Name
+
+TimeReport -------End-Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport  per event     per exec  Name
+
+TimeReport ---------- Modules in Path: tagAndProbe ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000231     0.000231  goodVertexFilter
+TimeReport   0.000017     0.000017  noScraping
+TimeReport   0.000338     0.000338  mergedMuons
+TimeReport   0.009814     0.009814  muonL1Info
+TimeReport   0.001865     0.001865  patMuonsWithoutTrigger
+TimeReport   0.009020     0.009020  patTriggerFull
+TimeReport   0.000074     0.000074  patTrigger
+TimeReport   0.001479     0.001479  muonMatchHLTL2
+TimeReport   0.001455     0.001455  muonMatchHLTL3
+TimeReport   0.001445     0.001445  muonMatchHLTL3T
+TimeReport   0.001462     0.001462  muonMatchHLTTkMu
+TimeReport   0.001526     0.001526  muonMatchHLTCtfTrack
+TimeReport   0.001548     0.001548  muonMatchHLTCtfTrack2
+TimeReport   0.001545     0.001545  muonMatchHLTTrackMu
+TimeReport   0.001397     0.001397  muonMatchHLTTrackIt
+TimeReport   0.000282     0.000282  patMuonsWithTrigger
+TimeReport   0.000165     0.000165  goodGenMuons
+TimeReport   0.000111     0.000111  tagMuons
+TimeReport   0.000024     0.000024  tagMuonsMCMatch
+TimeReport   0.000003     0.000003  oneTag
+TimeReport   0.000194     0.000196  probeMuons
+TimeReport   0.000020     0.000020  probeMuonsMCMatch
+TimeReport   0.000120     0.000122  tpPairs
+TimeReport   0.000003     0.000003  onePair
+TimeReport   0.000072     0.000074  nverticesModule
+TimeReport   0.000142     0.000148  njets30Module
+TimeReport   0.002128     0.002210  probeMuonsIsoDepositTk
+TimeReport   0.000024     0.000025  probeMuonsIsoFromDepsTk
+TimeReport   0.000013     0.000014  probeMuonsRelIsoFromDepsTk
+TimeReport   0.000017     0.000017  probeMuonsIsoValueMaps
+TimeReport   0.000036     0.000037  computeCorrectedIso
+TimeReport   0.000852     0.000885  mvaIsoVariables
+TimeReport   0.004368     0.004535  pfPileUpMVAIso
+TimeReport   0.067667     0.070262  pfNoPileUpMVAIso
+TimeReport   0.000201     0.000208  mvaIsoVariablesTag
+TimeReport   0.000568     0.000590  radialIso
+TimeReport   0.000348     0.000361  splitTrackTagger
+TimeReport   0.002140     0.002222  muonDxyPVdzmin
+TimeReport   0.000029     0.000030  probeMetMt
+TimeReport   0.000009     0.000009  tagMetMt
+TimeReport   0.000336     0.000349  particleFlowPtrs
+TimeReport   0.004222     0.004384  pfPileUpIsoPFBRECO
+TimeReport   0.055222     0.057339  pfNoPileUpIsoPFBRECO
+TimeReport   0.004217     0.004379  pfPileUpPFBRECO
+TimeReport   0.055223     0.057340  pfNoPileUpPFBRECO
+TimeReport   0.000112     0.000116  pfAllNeutralHadronsPFBRECO
+TimeReport   0.000086     0.000089  pfAllChargedHadronsPFBRECO
+TimeReport   0.000269     0.000280  pfAllPhotonsPFBRECO
+TimeReport   0.000084     0.000088  pfAllChargedParticlesPFBRECO
+TimeReport   0.000916     0.000951  pfPileUpAllChargedParticlesPFBRECO
+TimeReport   0.000266     0.000276  pfAllNeutralHadronsAndPhotonsPFBRECO
+TimeReport   0.000031     0.000033  muonMiniIsoCharged
+TimeReport   0.000147     0.000152  muonMiniIsoPUCharged
+TimeReport   0.000021     0.000022  muonMiniIsoNeutrals
+TimeReport   0.000056     0.000058  muonMiniIsoPhotons
+TimeReport   0.000020     0.000021  ak4PFCHSL1FastjetCorrector
+TimeReport   0.000006     0.000006  ak4PFCHSL2RelativeCorrector
+TimeReport   0.000005     0.000005  ak4PFCHSL3AbsoluteCorrector
+TimeReport   0.000008     0.000009  ak4PFCHSL1FastL2L3Corrector
+TimeReport   0.000810     0.000841  jetAwareCleaner
+TimeReport   0.000060     0.000062  AddPtRatioPtRel
+TimeReport   0.078273     0.081275  puppiR05
+TimeReport   0.001336     0.001387  pfAllPhotonsPuppi
+TimeReport   0.004791     0.004975  pfAllNeutralHadronsPuppi
+TimeReport   0.005941     0.006169  pfAllChargedHadronsPuppi
+TimeReport   0.001485     0.001542  muPFIsoDepositCHR04PUPPI
+TimeReport   0.000078     0.000081  muPFIsoDepositNHR04PUPPI
+TimeReport   0.000292     0.000303  muPFIsoDepositPhR04PUPPI
+TimeReport   0.000042     0.000044  muPFIsoValueCHR04PUPPI
+TimeReport   0.000015     0.000015  muPFIsoValueNHR04PUPPI
+TimeReport   0.000020     0.000021  muPFIsoValuePhR04PUPPI
+TimeReport   0.002614     0.002714  packedPFCandidatesNoLep
+TimeReport   0.071263     0.073996  puppiR05NoLep
+TimeReport   0.001309     0.001359  pfAllPhotonsPuppiNoLep
+TimeReport   0.004727     0.004908  pfAllNeutralHadronsPuppiNoLep
+TimeReport   0.005913     0.006139  pfAllChargedHadronsPuppiNoLep
+TimeReport   0.001456     0.001512  muPFIsoDepositCHR04PUPPINoLep
+TimeReport   0.000077     0.000080  muPFIsoDepositNHR04PUPPINoLep
+TimeReport   0.000290     0.000301  muPFIsoDepositPhR04PUPPINoLep
+TimeReport   0.000038     0.000039  muPFIsoValueCHR04PUPPINoLep
+TimeReport   0.000015     0.000016  muPFIsoValueNHR04PUPPINoLep
+TimeReport   0.000020     0.000020  muPFIsoValuePhR04PUPPINoLep
+TimeReport   0.000040     0.000041  loadPUPPIisoInValueMaps
+TimeReport   0.000014     0.000014  probeMultiplicity
+TimeReport   0.000007     0.000007  probeMultiplicityTMGM
+TimeReport   0.000006     0.000007  probeMultiplicityPt10M60140
+TimeReport   0.000014     0.000015  bestPairByZMass
+TimeReport   0.000030     0.000031  newTunePVals
+TimeReport   0.000019     0.000019  genWeightInfo
+TimeReport   0.000296     0.000308  muonDxyPVdzminTags
+TimeReport   0.010097     0.010484  tpTree
+
+TimeReport ---------- Modules in Path: tagAndProbeSta ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  goodVertexFilter
+TimeReport   0.000000     0.000000  noScraping
+TimeReport   0.002111     0.002111  muonsSta
+TimeReport   0.001623     0.001623  muonL1InfoSta
+TimeReport   0.000791     0.000791  patMuonsWithoutTriggerSta
+TimeReport   0.009044     0.009044  patTriggerFullSta
+TimeReport   0.000076     0.000076  patTriggerSta
+TimeReport   0.000293     0.000293  muonMatchHLTL2Sta
+TimeReport   0.000275     0.000275  muonMatchHLTL3Sta
+TimeReport   0.000273     0.000273  muonMatchHLTL3TSta
+TimeReport   0.000276     0.000276  muonMatchHLTTkMuSta
+TimeReport   0.000288     0.000288  muonMatchHLTCtfTrackSta
+TimeReport   0.000293     0.000293  muonMatchHLTCtfTrack2Sta
+TimeReport   0.000291     0.000291  muonMatchHLTTrackMuSta
+TimeReport   0.000265     0.000265  muonMatchHLTTrackItSta
+TimeReport   0.000156     0.000156  patMuonsWithTriggerSta
+TimeReport   0.000000     0.000000  tagMuons
+TimeReport   0.000000     0.000000  tagMuonsMCMatch
+TimeReport   0.000000     0.000000  oneTag
+TimeReport   0.000095     0.000096  probeMuonsSta
+TimeReport   0.000028     0.000029  probeMuonsMCMatchSta
+TimeReport   0.000051     0.000052  tpPairsSta
+TimeReport   0.000004     0.000004  onePairSta
+TimeReport   0.000001     0.000001  nverticesModule
+TimeReport   0.000385     0.000417  pCutTracks
+TimeReport   0.000070     0.000076  tkTracks
+TimeReport   0.000061     0.000066  tkTracksNoZ
+TimeReport   0.000527     0.000570  tracksNoMuonSeeded
+TimeReport   0.000343     0.000371  pCutTracks0
+TimeReport   0.000063     0.000068  tkTracks0
+TimeReport   0.000052     0.000056  tkTracksNoZ0
+TimeReport   0.005383     0.005823  staToTkMatch
+TimeReport   0.005349     0.005787  staToTkMatch0
+TimeReport   0.005163     0.005585  staToTkMatchNoZ
+TimeReport   0.005154     0.005575  staToTkMatchNoZ0
+TimeReport   0.000136     0.000147  njets30ModuleSta
+TimeReport   0.001347     0.001457  tpTreeSta
+
+TimeReport ---------- Modules in Path: tagAndProbeTkGen ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  goodVertexFilter
+TimeReport   0.000000     0.000000  noScraping
+TimeReport   0.000249     0.000249  probeGen
+TimeReport   0.000035     0.000035  tpPairsTkGen
+TimeReport   0.000031     0.000031  pCutTracks
+TimeReport   0.000006     0.000006  tkTracks
+TimeReport   0.000005     0.000005  tkTracksNoZ
+TimeReport   0.000042     0.000042  tracksNoMuonSeeded
+TimeReport   0.000028     0.000028  pCutTracks0
+TimeReport   0.000005     0.000005  tkTracks0
+TimeReport   0.000004     0.000004  tkTracksNoZ0
+TimeReport   0.003649     0.003649  genToTkMatch
+TimeReport   0.003532     0.003532  genToTkMatchNoZ
+TimeReport   0.003638     0.003638  genToTkMatch0
+TimeReport   0.003518     0.003518  genToTkMatchNoZ0
+TimeReport   0.000022     0.000022  probeMuonsMCMatchGen
+TimeReport   0.000002     0.000002  nverticesModule
+TimeReport   0.001482     0.001482  tpTreeGen
+
+TimeReport ---------- Modules in Path: tagAndProbeTkL1 ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  goodVertexFilter
+TimeReport   0.000000     0.000000  noScraping
+TimeReport   0.000032     0.000032  probeL1
+TimeReport   0.000029     0.000029  tpPairsTkL1
+TimeReport   0.000000     0.000000  pCutTracks
+TimeReport   0.000000     0.000000  tkTracks
+TimeReport   0.000000     0.000000  tkTracksNoZ
+TimeReport   0.000000     0.000000  tracksNoMuonSeeded
+TimeReport   0.000000     0.000000  pCutTracks0
+TimeReport   0.000000     0.000000  tkTracks0
+TimeReport   0.000000     0.000000  tkTracksNoZ0
+TimeReport   0.003696     0.003696  l1ToTkMatch
+TimeReport   0.003572     0.003572  l1ToTkMatchNoZ
+TimeReport   0.003680     0.003680  l1ToTkMatch0
+TimeReport   0.003567     0.003567  l1ToTkMatchNoZ0
+TimeReport   0.000020     0.000020  probeMuonsMCMatchL1
+TimeReport   0.000000     0.000000  nverticesModule
+TimeReport   0.001446     0.001446  tpTreeL1
+
+TimeReport ---------- Modules in Path: fakeRateJetPlusProbe ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  goodVertexFilter
+TimeReport   0.000000     0.000000  noScraping
+TimeReport   0.000000     0.000000  mergedMuons
+TimeReport   0.000000     0.000000  muonL1Info
+TimeReport   0.000000     0.000000  patMuonsWithoutTrigger
+TimeReport   0.000000     0.000000  patTriggerFull
+TimeReport   0.000000     0.000000  patTrigger
+TimeReport   0.000000     0.000000  muonMatchHLTL2
+TimeReport   0.000000     0.000000  muonMatchHLTL3
+TimeReport   0.000000     0.000000  muonMatchHLTL3T
+TimeReport   0.000000     0.000000  muonMatchHLTTkMu
+TimeReport   0.000000     0.000000  muonMatchHLTCtfTrack
+TimeReport   0.000000     0.000000  muonMatchHLTCtfTrack2
+TimeReport   0.000000     0.000000  muonMatchHLTTrackMu
+TimeReport   0.000000     0.000000  muonMatchHLTTrackIt
+TimeReport   0.000000     0.000000  patMuonsWithTrigger
+TimeReport   0.000000     0.000000  tagMuons
+TimeReport   0.000002     0.000002  probeMuons
+TimeReport   0.000071     0.000071  probeMuonsIsoDepositTk
+TimeReport   0.000001     0.000001  probeMuonsIsoFromDepsTk
+TimeReport   0.000000     0.000000  probeMuonsRelIsoFromDepsTk
+TimeReport   0.000001     0.000001  probeMuonsIsoValueMaps
+TimeReport   0.000001     0.000001  computeCorrectedIso
+TimeReport   0.000029     0.000029  mvaIsoVariables
+TimeReport   0.000153     0.000153  pfPileUpMVAIso
+TimeReport   0.002395     0.002395  pfNoPileUpMVAIso
+TimeReport   0.000005     0.000005  mvaIsoVariablesTag
+TimeReport   0.000020     0.000020  radialIso
+TimeReport   0.000011     0.000011  splitTrackTagger
+TimeReport   0.000073     0.000073  muonDxyPVdzmin
+TimeReport   0.000001     0.000001  probeMetMt
+TimeReport   0.000000     0.000000  tagMetMt
+TimeReport   0.000012     0.000012  particleFlowPtrs
+TimeReport   0.000147     0.000147  pfPileUpIsoPFBRECO
+TimeReport   0.001957     0.001957  pfNoPileUpIsoPFBRECO
+TimeReport   0.000147     0.000147  pfPileUpPFBRECO
+TimeReport   0.001962     0.001962  pfNoPileUpPFBRECO
+TimeReport   0.000004     0.000004  pfAllNeutralHadronsPFBRECO
+TimeReport   0.000003     0.000003  pfAllChargedHadronsPFBRECO
+TimeReport   0.000010     0.000010  pfAllPhotonsPFBRECO
+TimeReport   0.000003     0.000003  pfAllChargedParticlesPFBRECO
+TimeReport   0.000033     0.000033  pfPileUpAllChargedParticlesPFBRECO
+TimeReport   0.000010     0.000010  pfAllNeutralHadronsAndPhotonsPFBRECO
+TimeReport   0.000001     0.000001  muonMiniIsoCharged
+TimeReport   0.000005     0.000005  muonMiniIsoPUCharged
+TimeReport   0.000001     0.000001  muonMiniIsoNeutrals
+TimeReport   0.000002     0.000002  muonMiniIsoPhotons
+TimeReport   0.000001     0.000001  ak4PFCHSL1FastjetCorrector
+TimeReport   0.000000     0.000000  ak4PFCHSL2RelativeCorrector
+TimeReport   0.000000     0.000000  ak4PFCHSL3AbsoluteCorrector
+TimeReport   0.000000     0.000000  ak4PFCHSL1FastL2L3Corrector
+TimeReport   0.000029     0.000029  jetAwareCleaner
+TimeReport   0.000002     0.000002  AddPtRatioPtRel
+TimeReport   0.002711     0.002711  puppiR05
+TimeReport   0.000049     0.000049  pfAllPhotonsPuppi
+TimeReport   0.000177     0.000177  pfAllNeutralHadronsPuppi
+TimeReport   0.000220     0.000220  pfAllChargedHadronsPuppi
+TimeReport   0.000046     0.000046  muPFIsoDepositCHR04PUPPI
+TimeReport   0.000003     0.000003  muPFIsoDepositNHR04PUPPI
+TimeReport   0.000009     0.000009  muPFIsoDepositPhR04PUPPI
+TimeReport   0.000001     0.000001  muPFIsoValueCHR04PUPPI
+TimeReport   0.000001     0.000001  muPFIsoValueNHR04PUPPI
+TimeReport   0.000001     0.000001  muPFIsoValuePhR04PUPPI
+TimeReport   0.000096     0.000096  packedPFCandidatesNoLep
+TimeReport   0.002575     0.002575  puppiR05NoLep
+TimeReport   0.000048     0.000048  pfAllPhotonsPuppiNoLep
+TimeReport   0.000175     0.000175  pfAllNeutralHadronsPuppiNoLep
+TimeReport   0.000220     0.000220  pfAllChargedHadronsPuppiNoLep
+TimeReport   0.000045     0.000045  muPFIsoDepositCHR04PUPPINoLep
+TimeReport   0.000003     0.000003  muPFIsoDepositNHR04PUPPINoLep
+TimeReport   0.000009     0.000009  muPFIsoDepositPhR04PUPPINoLep
+TimeReport   0.000001     0.000001  muPFIsoValueCHR04PUPPINoLep
+TimeReport   0.000001     0.000001  muPFIsoValueNHR04PUPPINoLep
+TimeReport   0.000001     0.000001  muPFIsoValuePhR04PUPPINoLep
+TimeReport   0.000001     0.000001  loadPUPPIisoInValueMaps
+TimeReport   0.000029     0.000029  probeRecoMuons
+TimeReport   0.000037     0.000037  diMuPairs
+TimeReport   0.000019     0.000019  !diLepVetoForJets
+TimeReport   0.000009     0.000161  wMuNuForVeto
+TimeReport   0.000000     0.000004  !wMuNuVeto
+TimeReport   0.000005     0.004703  realJets
+TimeReport   0.000000     0.000062  leadingJet
+TimeReport   0.000000     0.000110  jetPlusProbe
+TimeReport   0.000000     0.000004  jetPlusProbeFilter
+TimeReport   0.000020     0.032578  fakeRateJetPlusProbeTree
+
+TimeReport ---------- Modules in Path: fakeRateWPlusProbe ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  goodVertexFilter
+TimeReport   0.000000     0.000000  noScraping
+TimeReport   0.000000     0.000000  mergedMuons
+TimeReport   0.000000     0.000000  muonL1Info
+TimeReport   0.000000     0.000000  patMuonsWithoutTrigger
+TimeReport   0.000000     0.000000  patTriggerFull
+TimeReport   0.000000     0.000000  patTrigger
+TimeReport   0.000000     0.000000  muonMatchHLTL2
+TimeReport   0.000000     0.000000  muonMatchHLTL3
+TimeReport   0.000000     0.000000  muonMatchHLTL3T
+TimeReport   0.000000     0.000000  muonMatchHLTTkMu
+TimeReport   0.000000     0.000000  muonMatchHLTCtfTrack
+TimeReport   0.000000     0.000000  muonMatchHLTCtfTrack2
+TimeReport   0.000000     0.000000  muonMatchHLTTrackMu
+TimeReport   0.000000     0.000000  muonMatchHLTTrackIt
+TimeReport   0.000000     0.000000  patMuonsWithTrigger
+TimeReport   0.000000     0.000000  tagMuons
+TimeReport   0.000000     0.000000  probeMuons
+TimeReport   0.000000     0.000000  probeMuonsIsoDepositTk
+TimeReport   0.000000     0.000000  probeMuonsIsoFromDepsTk
+TimeReport   0.000000     0.000000  probeMuonsRelIsoFromDepsTk
+TimeReport   0.000000     0.000000  probeMuonsIsoValueMaps
+TimeReport   0.000000     0.000000  computeCorrectedIso
+TimeReport   0.000000     0.000000  mvaIsoVariables
+TimeReport   0.000000     0.000000  pfPileUpMVAIso
+TimeReport   0.000000     0.000000  pfNoPileUpMVAIso
+TimeReport   0.000000     0.000000  mvaIsoVariablesTag
+TimeReport   0.000000     0.000000  radialIso
+TimeReport   0.000000     0.000000  splitTrackTagger
+TimeReport   0.000000     0.000000  muonDxyPVdzmin
+TimeReport   0.000000     0.000000  probeMetMt
+TimeReport   0.000000     0.000000  tagMetMt
+TimeReport   0.000000     0.000000  particleFlowPtrs
+TimeReport   0.000000     0.000000  pfPileUpIsoPFBRECO
+TimeReport   0.000000     0.000000  pfNoPileUpIsoPFBRECO
+TimeReport   0.000000     0.000000  pfPileUpPFBRECO
+TimeReport   0.000000     0.000000  pfNoPileUpPFBRECO
+TimeReport   0.000000     0.000000  pfAllNeutralHadronsPFBRECO
+TimeReport   0.000000     0.000000  pfAllChargedHadronsPFBRECO
+TimeReport   0.000000     0.000000  pfAllPhotonsPFBRECO
+TimeReport   0.000000     0.000000  pfAllChargedParticlesPFBRECO
+TimeReport   0.000000     0.000000  pfPileUpAllChargedParticlesPFBRECO
+TimeReport   0.000000     0.000000  pfAllNeutralHadronsAndPhotonsPFBRECO
+TimeReport   0.000000     0.000000  muonMiniIsoCharged
+TimeReport   0.000000     0.000000  muonMiniIsoPUCharged
+TimeReport   0.000000     0.000000  muonMiniIsoNeutrals
+TimeReport   0.000000     0.000000  muonMiniIsoPhotons
+TimeReport   0.000000     0.000000  ak4PFCHSL1FastjetCorrector
+TimeReport   0.000000     0.000000  ak4PFCHSL2RelativeCorrector
+TimeReport   0.000000     0.000000  ak4PFCHSL3AbsoluteCorrector
+TimeReport   0.000000     0.000000  ak4PFCHSL1FastL2L3Corrector
+TimeReport   0.000000     0.000000  jetAwareCleaner
+TimeReport   0.000000     0.000000  AddPtRatioPtRel
+TimeReport   0.000000     0.000000  puppiR05
+TimeReport   0.000000     0.000000  pfAllPhotonsPuppi
+TimeReport   0.000000     0.000000  pfAllNeutralHadronsPuppi
+TimeReport   0.000000     0.000000  pfAllChargedHadronsPuppi
+TimeReport   0.000000     0.000000  muPFIsoDepositCHR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoDepositNHR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoDepositPhR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoValueCHR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoValueNHR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoValuePhR04PUPPI
+TimeReport   0.000000     0.000000  packedPFCandidatesNoLep
+TimeReport   0.000000     0.000000  puppiR05NoLep
+TimeReport   0.000000     0.000000  pfAllPhotonsPuppiNoLep
+TimeReport   0.000000     0.000000  pfAllNeutralHadronsPuppiNoLep
+TimeReport   0.000000     0.000000  pfAllChargedHadronsPuppiNoLep
+TimeReport   0.000000     0.000000  muPFIsoDepositCHR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoDepositNHR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoDepositPhR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoValueCHR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoValueNHR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoValuePhR04PUPPINoLep
+TimeReport   0.000000     0.000000  loadPUPPIisoInValueMaps
+TimeReport   0.000000     0.000000  probeRecoMuons
+TimeReport   0.000000     0.000000  diMuPairs
+TimeReport   0.000047     0.000047  wMuNu
+TimeReport   0.000053     0.000053  wPlusProbe
+TimeReport   0.000003     0.000003  wPlusProbeFilter
+TimeReport   0.000011     0.000018  !zVetoForW
+TimeReport   0.000001     0.000033  jetsForVeto
+TimeReport   0.000000     0.000004  !jetVeto
+TimeReport   0.000023     0.003702  fakeRateWPlusProbeTree
+
+TimeReport ---------- Modules in Path: fakeRateZPlusProbe ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  goodVertexFilter
+TimeReport   0.000000     0.000000  noScraping
+TimeReport   0.000000     0.000000  mergedMuons
+TimeReport   0.000000     0.000000  muonL1Info
+TimeReport   0.000000     0.000000  patMuonsWithoutTrigger
+TimeReport   0.000000     0.000000  patTriggerFull
+TimeReport   0.000000     0.000000  patTrigger
+TimeReport   0.000000     0.000000  muonMatchHLTL2
+TimeReport   0.000000     0.000000  muonMatchHLTL3
+TimeReport   0.000000     0.000000  muonMatchHLTL3T
+TimeReport   0.000000     0.000000  muonMatchHLTTkMu
+TimeReport   0.000000     0.000000  muonMatchHLTCtfTrack
+TimeReport   0.000000     0.000000  muonMatchHLTCtfTrack2
+TimeReport   0.000000     0.000000  muonMatchHLTTrackMu
+TimeReport   0.000000     0.000000  muonMatchHLTTrackIt
+TimeReport   0.000000     0.000000  patMuonsWithTrigger
+TimeReport   0.000000     0.000000  tagMuons
+TimeReport   0.000000     0.000000  probeMuons
+TimeReport   0.000000     0.000000  probeMuonsIsoDepositTk
+TimeReport   0.000000     0.000000  probeMuonsIsoFromDepsTk
+TimeReport   0.000000     0.000000  probeMuonsRelIsoFromDepsTk
+TimeReport   0.000000     0.000000  probeMuonsIsoValueMaps
+TimeReport   0.000000     0.000000  computeCorrectedIso
+TimeReport   0.000000     0.000000  mvaIsoVariables
+TimeReport   0.000000     0.000000  pfPileUpMVAIso
+TimeReport   0.000000     0.000000  pfNoPileUpMVAIso
+TimeReport   0.000000     0.000000  mvaIsoVariablesTag
+TimeReport   0.000000     0.000000  radialIso
+TimeReport   0.000000     0.000000  splitTrackTagger
+TimeReport   0.000000     0.000000  muonDxyPVdzmin
+TimeReport   0.000000     0.000000  probeMetMt
+TimeReport   0.000000     0.000000  tagMetMt
+TimeReport   0.000000     0.000000  particleFlowPtrs
+TimeReport   0.000000     0.000000  pfPileUpIsoPFBRECO
+TimeReport   0.000000     0.000000  pfNoPileUpIsoPFBRECO
+TimeReport   0.000000     0.000000  pfPileUpPFBRECO
+TimeReport   0.000000     0.000000  pfNoPileUpPFBRECO
+TimeReport   0.000000     0.000000  pfAllNeutralHadronsPFBRECO
+TimeReport   0.000000     0.000000  pfAllChargedHadronsPFBRECO
+TimeReport   0.000000     0.000000  pfAllPhotonsPFBRECO
+TimeReport   0.000000     0.000000  pfAllChargedParticlesPFBRECO
+TimeReport   0.000000     0.000000  pfPileUpAllChargedParticlesPFBRECO
+TimeReport   0.000000     0.000000  pfAllNeutralHadronsAndPhotonsPFBRECO
+TimeReport   0.000000     0.000000  muonMiniIsoCharged
+TimeReport   0.000000     0.000000  muonMiniIsoPUCharged
+TimeReport   0.000000     0.000000  muonMiniIsoNeutrals
+TimeReport   0.000000     0.000000  muonMiniIsoPhotons
+TimeReport   0.000000     0.000000  ak4PFCHSL1FastjetCorrector
+TimeReport   0.000000     0.000000  ak4PFCHSL2RelativeCorrector
+TimeReport   0.000000     0.000000  ak4PFCHSL3AbsoluteCorrector
+TimeReport   0.000000     0.000000  ak4PFCHSL1FastL2L3Corrector
+TimeReport   0.000000     0.000000  jetAwareCleaner
+TimeReport   0.000000     0.000000  AddPtRatioPtRel
+TimeReport   0.000000     0.000000  puppiR05
+TimeReport   0.000000     0.000000  pfAllPhotonsPuppi
+TimeReport   0.000000     0.000000  pfAllNeutralHadronsPuppi
+TimeReport   0.000000     0.000000  pfAllChargedHadronsPuppi
+TimeReport   0.000000     0.000000  muPFIsoDepositCHR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoDepositNHR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoDepositPhR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoValueCHR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoValueNHR04PUPPI
+TimeReport   0.000000     0.000000  muPFIsoValuePhR04PUPPI
+TimeReport   0.000000     0.000000  packedPFCandidatesNoLep
+TimeReport   0.000000     0.000000  puppiR05NoLep
+TimeReport   0.000000     0.000000  pfAllPhotonsPuppiNoLep
+TimeReport   0.000000     0.000000  pfAllNeutralHadronsPuppiNoLep
+TimeReport   0.000000     0.000000  pfAllChargedHadronsPuppiNoLep
+TimeReport   0.000000     0.000000  muPFIsoDepositCHR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoDepositNHR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoDepositPhR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoValueCHR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoValueNHR04PUPPINoLep
+TimeReport   0.000000     0.000000  muPFIsoValuePhR04PUPPINoLep
+TimeReport   0.000000     0.000000  loadPUPPIisoInValueMaps
+TimeReport   0.000000     0.000000  probeRecoMuons
+TimeReport   0.000113     0.000113  zForFakes
+TimeReport   0.000067     0.000067  zPlusProbe
+TimeReport   0.000003     0.000003  zPlusProbeFilter
+TimeReport   0.000075     0.000215  !metVetoForZ
+TimeReport   0.000001     0.000004  !fourthLepVetoForZ
+TimeReport   0.000108     0.001202  fakeRateZPlusProbeTree
+TimeReport  per event    per visit  Name
+
+TimeReport ---------- Module Summary ---[Real sec]----
+TimeReport  per event     per exec    per visit  Name
+TimeReport   0.000062     0.000062     0.000016  AddPtRatioPtRel
+TimeReport   0.000026     0.000026     0.000026  TriggerResults
+TimeReport   0.000009     0.000009     0.000002  ak4PFCHSL1FastL2L3Corrector
+TimeReport   0.000021     0.000021     0.000005  ak4PFCHSL1FastjetCorrector
+TimeReport   0.000006     0.000006     0.000002  ak4PFCHSL2RelativeCorrector
+TimeReport   0.000005     0.000005     0.000001  ak4PFCHSL3AbsoluteCorrector
+TimeReport   0.000014     0.000015     0.000015  bestPairByZMass
+TimeReport   0.000037     0.000037     0.000009  computeCorrectedIso
+TimeReport   0.000019     0.000019     0.000019  diLepVetoForJets
+TimeReport   0.000037     0.000037     0.000018  diMuPairs
+TimeReport   0.000020     0.032578     0.032578  fakeRateJetPlusProbeTree
+TimeReport   0.000023     0.003702     0.003702  fakeRateWPlusProbeTree
+TimeReport   0.000108     0.001202     0.001202  fakeRateZPlusProbeTree
+TimeReport   0.000001     0.000004     0.000004  fourthLepVetoForZ
+TimeReport   0.003649     0.003649     0.003649  genToTkMatch
+TimeReport   0.003638     0.003638     0.003638  genToTkMatch0
+TimeReport   0.003532     0.003532     0.003532  genToTkMatchNoZ
+TimeReport   0.003518     0.003518     0.003518  genToTkMatchNoZ0
+TimeReport   0.000019     0.000019     0.000019  genWeightInfo
+TimeReport   0.000165     0.000165     0.000165  goodGenMuons
+TimeReport   0.000231     0.000231     0.000033  goodVertexFilter
+TimeReport   0.000839     0.000839     0.000212  jetAwareCleaner
+TimeReport   0.000000     0.000110     0.000110  jetPlusProbe
+TimeReport   0.000000     0.000004     0.000004  jetPlusProbeFilter
+TimeReport   0.000000     0.000004     0.000004  jetVeto
+TimeReport   0.000001     0.000033     0.000033  jetsForVeto
+TimeReport   0.003696     0.003696     0.003696  l1ToTkMatch
+TimeReport   0.003680     0.003680     0.003680  l1ToTkMatch0
+TimeReport   0.003572     0.003572     0.003572  l1ToTkMatchNoZ
+TimeReport   0.003567     0.003567     0.003567  l1ToTkMatchNoZ0
+TimeReport   0.000000     0.000062     0.000062  leadingJet
+TimeReport   0.000041     0.000041     0.000010  loadPUPPIisoInValueMaps
+TimeReport   0.000338     0.000338     0.000084  mergedMuons
+TimeReport   0.000075     0.000215     0.000215  metVetoForZ
+TimeReport   0.001531     0.001531     0.000386  muPFIsoDepositCHR04PUPPI
+TimeReport   0.001501     0.001501     0.000379  muPFIsoDepositCHR04PUPPINoLep
+TimeReport   0.000081     0.000081     0.000020  muPFIsoDepositNHR04PUPPI
+TimeReport   0.000080     0.000080     0.000020  muPFIsoDepositNHR04PUPPINoLep
+TimeReport   0.000301     0.000301     0.000076  muPFIsoDepositPhR04PUPPI
+TimeReport   0.000299     0.000299     0.000075  muPFIsoDepositPhR04PUPPINoLep
+TimeReport   0.000043     0.000043     0.000011  muPFIsoValueCHR04PUPPI
+TimeReport   0.000039     0.000039     0.000010  muPFIsoValueCHR04PUPPINoLep
+TimeReport   0.000015     0.000015     0.000004  muPFIsoValueNHR04PUPPI
+TimeReport   0.000016     0.000016     0.000004  muPFIsoValueNHR04PUPPINoLep
+TimeReport   0.000021     0.000021     0.000005  muPFIsoValuePhR04PUPPI
+TimeReport   0.000020     0.000020     0.000005  muPFIsoValuePhR04PUPPINoLep
+TimeReport   0.002213     0.002213     0.000558  muonDxyPVdzmin
+TimeReport   0.000296     0.000308     0.000308  muonDxyPVdzminTags
+TimeReport   0.009814     0.009814     0.002453  muonL1Info
+TimeReport   0.001623     0.001623     0.001623  muonL1InfoSta
+TimeReport   0.001526     0.001526     0.000381  muonMatchHLTCtfTrack
+TimeReport   0.001548     0.001548     0.000387  muonMatchHLTCtfTrack2
+TimeReport   0.000293     0.000293     0.000293  muonMatchHLTCtfTrack2Sta
+TimeReport   0.000288     0.000288     0.000288  muonMatchHLTCtfTrackSta
+TimeReport   0.001479     0.001479     0.000370  muonMatchHLTL2
+TimeReport   0.000293     0.000293     0.000293  muonMatchHLTL2Sta
+TimeReport   0.001455     0.001455     0.000364  muonMatchHLTL3
+TimeReport   0.000275     0.000275     0.000275  muonMatchHLTL3Sta
+TimeReport   0.001445     0.001445     0.000361  muonMatchHLTL3T
+TimeReport   0.000273     0.000273     0.000273  muonMatchHLTL3TSta
+TimeReport   0.001462     0.001462     0.000365  muonMatchHLTTkMu
+TimeReport   0.000276     0.000276     0.000276  muonMatchHLTTkMuSta
+TimeReport   0.001397     0.001397     0.000349  muonMatchHLTTrackIt
+TimeReport   0.000265     0.000265     0.000265  muonMatchHLTTrackItSta
+TimeReport   0.001545     0.001545     0.000386  muonMatchHLTTrackMu
+TimeReport   0.000291     0.000291     0.000291  muonMatchHLTTrackMuSta
+TimeReport   0.000033     0.000033     0.000008  muonMiniIsoCharged
+TimeReport   0.000022     0.000022     0.000005  muonMiniIsoNeutrals
+TimeReport   0.000152     0.000152     0.000038  muonMiniIsoPUCharged
+TimeReport   0.000058     0.000058     0.000015  muonMiniIsoPhotons
+TimeReport   0.002111     0.002111     0.002111  muonsSta
+TimeReport   0.000881     0.000881     0.000222  mvaIsoVariables
+TimeReport   0.000206     0.000206     0.000052  mvaIsoVariablesTag
+TimeReport   0.000030     0.000031     0.000031  newTunePVals
+TimeReport   0.000142     0.000148     0.000148  njets30Module
+TimeReport   0.000136     0.000147     0.000147  njets30ModuleSta
+TimeReport   0.000017     0.000017     0.000002  noScraping
+TimeReport   0.000074     0.000074     0.000019  nverticesModule
+TimeReport   0.000003     0.000003     0.000003  onePair
+TimeReport   0.000004     0.000004     0.000004  onePairSta
+TimeReport   0.000003     0.000003     0.000002  oneTag
+TimeReport   0.000416     0.000416     0.000142  pCutTracks
+TimeReport   0.000371     0.000371     0.000127  pCutTracks0
+TimeReport   0.002710     0.002710     0.000684  packedPFCandidatesNoLep
+TimeReport   0.000348     0.000348     0.000088  particleFlowPtrs
+TimeReport   0.000282     0.000282     0.000071  patMuonsWithTrigger
+TimeReport   0.000156     0.000156     0.000156  patMuonsWithTriggerSta
+TimeReport   0.001865     0.001865     0.000466  patMuonsWithoutTrigger
+TimeReport   0.000791     0.000791     0.000791  patMuonsWithoutTriggerSta
+TimeReport   0.000074     0.000074     0.000019  patTrigger
+TimeReport   0.009020     0.009020     0.002255  patTriggerFull
+TimeReport   0.009044     0.009044     0.009044  patTriggerFullSta
+TimeReport   0.000076     0.000076     0.000076  patTriggerSta
+TimeReport   0.000089     0.000089     0.000023  pfAllChargedHadronsPFBRECO
+TimeReport   0.006161     0.006161     0.001555  pfAllChargedHadronsPuppi
+TimeReport   0.006132     0.006132     0.001547  pfAllChargedHadronsPuppiNoLep
+TimeReport   0.000088     0.000088     0.000022  pfAllChargedParticlesPFBRECO
+TimeReport   0.000276     0.000276     0.000070  pfAllNeutralHadronsAndPhotonsPFBRECO
+TimeReport   0.000116     0.000116     0.000029  pfAllNeutralHadronsPFBRECO
+TimeReport   0.004968     0.004968     0.001253  pfAllNeutralHadronsPuppi
+TimeReport   0.004902     0.004902     0.001237  pfAllNeutralHadronsPuppiNoLep
+TimeReport   0.000279     0.000279     0.000070  pfAllPhotonsPFBRECO
+TimeReport   0.001385     0.001385     0.000350  pfAllPhotonsPuppi
+TimeReport   0.001357     0.001357     0.000343  pfAllPhotonsPuppiNoLep
+TimeReport   0.057179     0.057179     0.014428  pfNoPileUpIsoPFBRECO
+TimeReport   0.070062     0.070062     0.017679  pfNoPileUpMVAIso
+TimeReport   0.057185     0.057185     0.014429  pfNoPileUpPFBRECO
+TimeReport   0.000949     0.000949     0.000239  pfPileUpAllChargedParticlesPFBRECO
+TimeReport   0.004369     0.004369     0.001102  pfPileUpIsoPFBRECO
+TimeReport   0.004521     0.004521     0.001141  pfPileUpMVAIso
+TimeReport   0.004364     0.004364     0.001101  pfPileUpPFBRECO
+TimeReport   0.000249     0.000249     0.000249  probeGen
+TimeReport   0.000032     0.000032     0.000032  probeL1
+TimeReport   0.000030     0.000030     0.000008  probeMetMt
+TimeReport   0.000014     0.000014     0.000014  probeMultiplicity
+TimeReport   0.000006     0.000007     0.000007  probeMultiplicityPt10M60140
+TimeReport   0.000007     0.000007     0.000007  probeMultiplicityTMGM
+TimeReport   0.000196     0.000196     0.000049  probeMuons
+TimeReport   0.002199     0.002199     0.000555  probeMuonsIsoDepositTk
+TimeReport   0.000025     0.000025     0.000006  probeMuonsIsoFromDepsTk
+TimeReport   0.000017     0.000017     0.000004  probeMuonsIsoValueMaps
+TimeReport   0.000020     0.000020     0.000020  probeMuonsMCMatch
+TimeReport   0.000022     0.000022     0.000022  probeMuonsMCMatchGen
+TimeReport   0.000020     0.000020     0.000020  probeMuonsMCMatchL1
+TimeReport   0.000028     0.000029     0.000029  probeMuonsMCMatchSta
+TimeReport   0.000014     0.000014     0.000003  probeMuonsRelIsoFromDepsTk
+TimeReport   0.000095     0.000096     0.000096  probeMuonsSta
+TimeReport   0.000029     0.000029     0.000010  probeRecoMuons
+TimeReport   0.080984     0.080984     0.020435  puppiR05
+TimeReport   0.073838     0.073838     0.018631  puppiR05NoLep
+TimeReport   0.000588     0.000588     0.000148  radialIso
+TimeReport   0.000005     0.004703     0.004703  realJets
+TimeReport   0.000359     0.000359     0.000090  splitTrackTagger
+TimeReport   0.005383     0.005823     0.005823  staToTkMatch
+TimeReport   0.005349     0.005787     0.005787  staToTkMatch0
+TimeReport   0.005163     0.005585     0.005585  staToTkMatchNoZ
+TimeReport   0.005154     0.005575     0.005575  staToTkMatchNoZ0
+TimeReport   0.000009     0.000009     0.000002  tagMetMt
+TimeReport   0.000111     0.000111     0.000022  tagMuons
+TimeReport   0.000024     0.000024     0.000012  tagMuonsMCMatch
+TimeReport   0.000076     0.000076     0.000026  tkTracks
+TimeReport   0.000068     0.000068     0.000023  tkTracks0
+TimeReport   0.000066     0.000066     0.000023  tkTracksNoZ
+TimeReport   0.000056     0.000056     0.000019  tkTracksNoZ0
+TimeReport   0.000120     0.000122     0.000122  tpPairs
+TimeReport   0.000051     0.000052     0.000052  tpPairsSta
+TimeReport   0.000035     0.000035     0.000035  tpPairsTkGen
+TimeReport   0.000029     0.000029     0.000029  tpPairsTkL1
+TimeReport   0.010097     0.010484     0.010484  tpTree
+TimeReport   0.001482     0.001482     0.001482  tpTreeGen
+TimeReport   0.001446     0.001446     0.001446  tpTreeL1
+TimeReport   0.001347     0.001457     0.001457  tpTreeSta
+TimeReport   0.000570     0.000570     0.000195  tracksNoMuonSeeded
+TimeReport   0.000047     0.000047     0.000047  wMuNu
+TimeReport   0.000009     0.000161     0.000161  wMuNuForVeto
+TimeReport   0.000000     0.000004     0.000004  wMuNuVeto
+TimeReport   0.000053     0.000053     0.000053  wPlusProbe
+TimeReport   0.000003     0.000003     0.000003  wPlusProbeFilter
+TimeReport   0.000113     0.000113     0.000113  zForFakes
+TimeReport   0.000067     0.000067     0.000067  zPlusProbe
+TimeReport   0.000003     0.000003     0.000003  zPlusProbeFilter
+TimeReport   0.000011     0.000018     0.000018  zVetoForW
+TimeReport  per event     per exec    per visit  Name
+
+T---Report end!
+
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             7        7
+    2 fileAction           -s file_open                             14       14
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    2 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                 21                  21
