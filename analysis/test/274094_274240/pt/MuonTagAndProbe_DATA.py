@@ -30,6 +30,7 @@ Variables = cms.PSet(
     mass = cms.vstring('Tag-muon Mass', '80', '100', 'GeV/c^{2}'),
     pt = cms.vstring('muon p_{T}', '0', '1000', 'GeV/c'),
     eta = cms.vstring('muon #eta', '-2.4', '2.4', '-'),
+    isoTrk03Abs = cms.vstring('Track isolation', '-999', '999999', ''),
     run = cms.vstring('Run number', '-999', '999999', '')
 )
 
@@ -62,6 +63,7 @@ Efficiencies = cms.PSet(
             eta = cms.vdouble(-2.4, 2.4),
             pt = cms.vdouble(0, 10, 15, 20, 25, 30, 40, 45, 48, 50, 52, 55, 60, 80, 120),
             run = cms.vdouble(274094, 274240),
+            isoTrk03Abs = cms.vdouble(0, 0.1),
             NewHighPtID = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),
