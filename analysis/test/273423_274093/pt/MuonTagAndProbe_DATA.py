@@ -27,7 +27,7 @@ Variables = cms.PSet(
     dzPV = cms.vstring('dzPV', '-10.0', '10.0', ''),
     dB = cms.vstring('dB', '0.0', '1.5', ''),
     pair_probeMultiplicity = cms.vstring('pair_probeMultiplicity', '0.20', '30.0', ''),
-    mass = cms.vstring('Tag-muon Mass', '80', '100', 'GeV/c^{2}'),
+    mass = cms.vstring('Tag-muon Mass', '76', '125', 'GeV/c^{2}'),
     pt = cms.vstring('muon p_{T}', '0', '1000', 'GeV/c'),
     eta = cms.vstring('muon #eta', '-2.4', '2.4', '-'),
     isoTrk03Abs = cms.vstring('Track isolation', '-999', '999999', ''),
@@ -86,7 +86,7 @@ PDFs = cms.PSet(
 
 # Configure the fitting
 binnedFit = cms.bool(True)
-binsForFit = cms.uint32(10) # Select the number of bins which are fitted in the invariant mass histo
+binsForFit = cms.uint32(40) # Select the number of bins which are fitted in the invariant mass histo
 saveDistributionsPlot = cms.bool(True)
 NumCPU = cms.uint32(1) # Leave to 1 for now, RooFit gives funny results otherwise
 SaveWorkspace = cms.bool(False)
