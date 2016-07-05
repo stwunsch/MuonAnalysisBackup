@@ -56,10 +56,10 @@ Efficiencies = cms.PSet(
         EfficiencyCategoryAndState = cms.vstring("Mu50", "pass"),
         BinnedVariables = cms.PSet(
             pair_probeMultiplicity = cms.vdouble(0.5, 1.5),
-            dzPV = cms.vdouble(-10.0, 10.0),
-            dB = cms.vdouble(0.0, 1.5),
+            dzPV = cms.vdouble(-1.0, 1.0),
+            dB = cms.vdouble(0.0, 0.2),
             eta = cms.vdouble(1.2, 1.7),
-            pt = cms.vdouble(0, 10, 15, 20, 25, 30, 40, 45, 48, 50, 52, 55, 60, 80, 120),
+            pt = cms.vdouble(0, 10, 15, 20, 25, 30, 40, 45, 48, 50, 52, 55, 60, 80, 120, 200, 500),
             NewHighPtID = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),

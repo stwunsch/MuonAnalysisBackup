@@ -5,7 +5,7 @@
 filename_DATA="../../data/TnPTree_80X_Run2016B_v2_GoldenJSON_Run273731_to_274240_IncludingMissingLumi_Completed.root ../../data/TnPTree_80X_Run2016B_v2_GoldenJSON_Run274241to274421.root ../../data/TnPTree_80X_Run2016B_v2_GoldenJSON_Run274422to274443.root ../../data/TnPTree_80X_Run2016B_v2_GoldenJSON_Run274444to275125.root"
 echo "[INFO] Input files:" $filename_DATA
 
-filename_SUBTREE="subTree_Mu50.root"
+filename_SUBTREE="subTree_IsoMu20.root"
 
 # Creating subtree if the file doesn't exist, otherwise skip producing subtree
 
@@ -25,7 +25,7 @@ then
 else
     echo "[INFO] Start highResEta ..."
     cd highResEta/
-    #cmsRun MuonTagAndProbe_DATA.py ../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA.py ../$filename_SUBTREE
     cd ..
 fi
 
