@@ -40,4 +40,9 @@ else
     cmsRun MuonTagAndProbe_DATA_forward.py ../$filename_SUBTREE
     cmsRun MuonTagAndProbe_DATA_backward.py ../$filename_SUBTREE
     cd ..
+    echo "[INFO] Collect plots from eta_1p2_1p7..."
+    root -l -b -q 'collectPlots.C("eta_1p2_1p7/","eta_1p2_1p7/collectPlots.root","MuonTagAndProbe")'
+    echo "[INFO] Compare plots from eta_1p2_1p7..."
+    root -l -b -q 'comparePlots.C("eta_1p2_1p7/collectPlots.root","eta_1p2_1p7/comparePlots.root")'
 fi
+
