@@ -7,6 +7,14 @@ echo "[INFO] Input files:" $filename_DATA
 
 filename_SUBTREE="subTree_IsoMu20.root"
 
+# Check whether CMSSW is setup
+
+if [ -z $CMSSW_BASE ];
+then
+    echo "[ERROR] Please setup CMSSW"
+    exit 1
+fi
+
 # Creating subtree if the file doesn't exist, otherwise skip producing subtree
 
 if [ -f $filename_SUBTREE ];

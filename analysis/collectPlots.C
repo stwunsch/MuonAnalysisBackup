@@ -44,7 +44,7 @@ void collectPlots(TString thePath, TString theOutFileName, TString theNameTag){
                                     if (obj->InheritsFrom("TGraphAsymmErrors")){
                                         myOutFile->cd();
                                         fileCounterStr.Form("%i", fileCounter);
-                                        obj->Write(fileCounterStr+"_"+theNomClasse2+"_"+theNomClasse3+"_"+obj->GetTitle());
+                                        obj->Write(fname+"_"+fileCounterStr+"_"+theNomClasse2+"_"+theNomClasse3+"_"+obj->GetTitle());
                                         fileCounter++;
                                         myFile->cd();
                                     }
