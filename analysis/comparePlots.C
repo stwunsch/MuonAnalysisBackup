@@ -22,7 +22,7 @@ void comparePlots(TString theFileName1, TString theOutFileName){
     if(graphs.size()>5) std::cout << "[WARNING] Only five different colors are implemented!" << std::endl;
     std::vector<Int_t> colorMap = {kBlue+1, kOrange+7,kRed+1, kGreen+1, kAzure+1};
     std::vector<Int_t> markerMap = {20, 23, 21, 22, 24};
-    TCanvas* canvas = new TCanvas("canvasName", "canvasTitle", 500, 500);
+    TCanvas* canvas = new TCanvas("canvasName", "comparePlots", 500, 500);
     canvas->cd();
     TMultiGraph* mg = new TMultiGraph();
     //canvas->SetGrid();

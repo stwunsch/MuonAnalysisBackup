@@ -19,7 +19,7 @@ fi
 
 if [ -f $filename_SUBTREE ];
 then
-    echo "[INFO] File" $filename_SUBTREE "already exists, skip creating subtree."
+    echo "[INFO] Skip creating subtree because file" $filename_SUBTREE "already exists."
 else
     echo "[INFO] Creating subtree from input files."
     root -l -b -q $filename_DATA subTree.C
@@ -48,9 +48,45 @@ else
     cmsRun MuonTagAndProbe_DATA_forward.py ../$filename_SUBTREE
     cmsRun MuonTagAndProbe_DATA_backward.py ../$filename_SUBTREE
     cd ..
-    echo "[INFO] Collect plots from eta_1p2_1p7..."
+    echo "[INFO] Collect plots from eta_1p2_1p7 ..."
     root -l -b -q 'collectPlots.C("eta_1p2_1p7/","eta_1p2_1p7/collectPlots.root","MuonTagAndProbe")'
-    echo "[INFO] Compare plots from eta_1p2_1p7..."
+    echo "[INFO] Compare plots from eta_1p2_1p7 ..."
     root -l -b -q 'comparePlots.C("eta_1p2_1p7/collectPlots.root","eta_1p2_1p7/comparePlots.root")'
 fi
 
+
+# Make L1 cut plots with different parameters
+
+if [ -f l1/l1q/MuonTagAndProbe_DATA_l1q_4.root ];
+then
+    echo "[INFO] Skip l1/l1q because ROOT file already exists"
+else
+    echo "[INFO] Start l1/l1q ..."
+    cd l1/l1q/
+    cmsRun MuonTagAndProbe_DATA_l1q_4.py ../../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA_l1q_8.py ../../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA_l1q_12.py ../../$filename_SUBTREE
+    cd ../..
+    echo "[INFO] Collect plots from l1/l1q ..."
+    root -l -b -q 'collectPlots.C("l1/l1q/","l1/l1q/collectPlots.root","MuonTagAndProbe")'
+    echo "[INFO] Compare plots from l1/l1q ..."
+    root -l -b -q 'comparePlots.C("l1/l1q/collectPlots.root","l1/l1q/comparePlots.root")'
+fi
+
+if [ -f l1/l1pt/MuonTagAndProbe_DATA_l1pt_16.root ];
+then
+    echo "[INFO] Skip l1/l1pt because ROOT file already exists"
+else
+    echo "[INFO] Start l1/l1pt ..."
+    cd l1/l1pt/
+    cmsRun MuonTagAndProbe_DATA_l1pt_16.py ../../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA_l1pt_20.py ../../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA_l1pt_22.py ../../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA_l1pt_26.py ../../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA_l1pt_30.py ../../$filename_SUBTREE
+    cd ../..
+    echo "[INFO] Collect plots from l1/l1pt ..."
+    root -l -b -q 'collectPlots.C("l1/l1pt/","l1/l1pt/collectPlots.root","MuonTagAndProbe")'
+    echo "[INFO] Compare plots from l1/l1pt ..."
+    root -l -b -q 'comparePlots.C("l1/l1pt/collectPlots.root","l1/l1pt/comparePlots.root")'
+fi
