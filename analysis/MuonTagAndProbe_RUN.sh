@@ -90,3 +90,62 @@ else
     echo "[INFO] Compare plots from l1/l1pt ..."
     root -l -b -q 'comparePlots.C("l1/l1pt/collectPlots.root","l1/l1pt/comparePlots.root")'
 fi
+
+# Analysis of abseta in high resolution and pt plots for every bin
+
+if [ -f highResAbsEta/abseta/MuonTagAndProbe_DATA_delEta0p1.root ];
+then
+    echo "[INFO] Skip highResAbsEta/abseta because ROOT file already exists"
+else
+    echo "[INFO] Start highResAbsEta/abseta ..."
+    cd highResAbsEta/abseta/
+    cmsRun MuonTagAndProbe_DATA_delEta0p1.py ../../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA_delEta0p05.py ../../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA_delEta0p025.py ../../$filename_SUBTREE
+    cmsRun MuonTagAndProbe_DATA_delEta0p01.py ../../$filename_SUBTREE
+    cd ../..
+    echo "[INFO] Collect plots from highResAbsEta/abseta ..."
+    root -l -b -q 'collectPlots.C("highResAbsEta/abseta/","highResAbsEta/abseta/collectPlots.root","MuonTagAndProbe")'
+    echo "[INFO] Compare plots from highResAbsEta/abseta ..."
+fi
+
+if [ -f highResAbsEta/pt/MuonTagAndProbe_DATA_pt_1.0_1.1.root ];
+then
+    echo "[INFO] Skip highResAbsEta/pt because ROOT file already exists"
+else
+    echo "[INFO] Start highResAbsEta/pt ..."
+    cd highResAbsEta/pt/
+    sed -e 's/@abseta_min@/1.0/' -e 's/@abseta_max@/1.1/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.0_1.1.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.0_1.1.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/1.1/' -e 's/@abseta_max@/1.2/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.1_1.2.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.1_1.2.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/1.2/' -e 's/@abseta_max@/1.3/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.2_1.3.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.2_1.3.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/1.3/' -e 's/@abseta_max@/1.4/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.3_1.4.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.3_1.4.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/1.4/' -e 's/@abseta_max@/1.5/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.4_1.5.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.4_1.5.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/1.5/' -e 's/@abseta_max@/1.6/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.5_1.6.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.5_1.6.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/1.6/' -e 's/@abseta_max@/1.7/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.6_1.7.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.6_1.7.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/1.7/' -e 's/@abseta_max@/1.8/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.7_1.8.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.7_1.8.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/1.8/' -e 's/@abseta_max@/1.9/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.8_1.9.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.8_1.9.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/1.9/' -e 's/@abseta_max@/2.0/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_1.9_2.0.py
+    cmsRun MuonTagAndProbe_DATA_pt_1.9_2.0.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/2.0/' -e 's/@abseta_max@/2.1/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_2.0_2.1.py
+    cmsRun MuonTagAndProbe_DATA_pt_2.0_2.1.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/2.1/' -e 's/@abseta_max@/2.2/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_2.1_2.2.py
+    cmsRun MuonTagAndProbe_DATA_pt_2.1_2.2.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/2.2/' -e 's/@abseta_max@/2.3/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_2.2_2.3.py
+    cmsRun MuonTagAndProbe_DATA_pt_2.2_2.3.py ../../$filename_SUBTREE
+    sed -e 's/@abseta_min@/2.3/' -e 's/@abseta_max@/2.4/' MuonTagAndProbe_DATA_pt.template > MuonTagAndProbe_DATA_pt_2.3_2.4.py
+    cmsRun MuonTagAndProbe_DATA_pt_2.3_2.4.py ../../$filename_SUBTREE
+    cd ../..
+    echo "[INFO] Collect plots from highResAbsEta/pt ..."
+    root -l -b -q 'collectPlots.C("highResAbsEta/pt/","highResAbsEta/pt/collectPlots.root","MuonTagAndProbe")'
+    echo "[INFO] Compare plots from highResAbsEta/pt ..."
+    root -l -b -q 'comparePlots.C("highResAbsEta/pt/collectPlots.root","highResAbsEta/pt/comparePlots.root")'
+fi

@@ -32,6 +32,7 @@ Variables = cms.PSet(
     abseta = cms.vstring('muon #eta', '-2.4', '2.4', '-'),
     l1pt = cms.vstring('L1 muon p_{T}', '0', '999', 'GeV/c'),
     l1q = cms.vstring('L1 quality', '0', '999', '-'),
+    relTkIso = cms.vstring('Relative track isolatoin', '0', '1', '-'),
 )
 
 # Defines all the discrete variables which are intended for use in the efficiencies
@@ -64,6 +65,7 @@ Efficiencies = cms.PSet(
             dB = cms.vdouble(0.0, 0.2),
             abseta = cms.vdouble(1.2, 1.7),
             pt = cms.vdouble(0, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 80, 120, 200, 500),
+            relTkIso = cms.vdouble(0, 0.1),
             NewHighPtID = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),

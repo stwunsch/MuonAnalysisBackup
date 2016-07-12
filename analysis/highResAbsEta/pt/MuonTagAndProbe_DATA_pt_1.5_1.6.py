@@ -20,7 +20,7 @@ TnP Configuration
 InputFileNames = cms.vstring(filename)
 InputDirectoryName = cms.string("tpTree")
 InputTreeName = cms.string("fitter_tree")
-OutputFileName = cms.string("MuonTagAndProbe_DATA_l1pt_16.root")
+OutputFileName = cms.string("MuonTagAndProbe_DATA_pt_1.5_1.6.root")
 
 # Defines all the real variables which are intended for use in the efficiencies
 Variables = cms.PSet(
@@ -29,7 +29,7 @@ Variables = cms.PSet(
     pair_probeMultiplicity = cms.vstring('pair_probeMultiplicity', '0.20', '30.0', ''),
     mass = cms.vstring('Tag-muon Mass', '76', '125', 'GeV/c^{2}'),
     pt = cms.vstring('muon p_{T}', '0', '1000', 'GeV/c'),
-    abseta = cms.vstring('muon #eta', '-2.4', '2.4', '-'),
+    abseta = cms.vstring('muon #eta', '0', '2.4', '-'),
     l1pt = cms.vstring('L1 muon p_{T}', '0', '999', 'GeV/c'),
     l1q = cms.vstring('L1 quality', '0', '999', '-'),
     relTkIso = cms.vstring('Relative track isolatoin', '0', '1', '-'),
@@ -63,9 +63,9 @@ Efficiencies = cms.PSet(
             pair_probeMultiplicity = cms.vdouble(0.5, 1.5),
             dzPV = cms.vdouble(-0.5, 0.5),
             dB = cms.vdouble(0.0, 0.2),
-            abseta = cms.vdouble(1.2, 1.7),
-            pt = cms.vdouble(0, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 80, 120, 200, 500),
+            abseta = cms.vdouble(1.5, 1.6),
             relTkIso = cms.vdouble(0, 0.1),
+            pt = cms.vdouble(0, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 80, 120, 200, 500),
             NewHighPtID = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),
