@@ -107,6 +107,7 @@ else
     echo "[INFO] Collect plots from highResAbsEta/abseta ..."
     root -l -b -q 'collectPlots.C("highResAbsEta/abseta/","highResAbsEta/abseta/collectPlots.root","MuonTagAndProbe")'
     echo "[INFO] Compare plots from highResAbsEta/abseta ..."
+    root -l -b -q 'comparePlots.C("highResAbsEta/abseta/collectPlots.root","highResAbsEta/abseta/comparePlots.root")'
 fi
 
 if [ -f highResAbsEta/pt/MuonTagAndProbe_DATA_pt_1.0_1.1.root ];
