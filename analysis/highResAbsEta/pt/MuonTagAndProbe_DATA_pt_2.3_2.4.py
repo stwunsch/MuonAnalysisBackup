@@ -45,7 +45,7 @@ Categories = cms.PSet(
 # Define expressions to implement custom categories
 # Leave it empty if you don't need this feature.
 Expressions = cms.PSet(
-    Exp_L1 = cms.vstring("Exp_L1", "l1pt >= 16 && l1q >= 12", "l1pt", "l1q"),
+    Exp_L1 = cms.vstring("Exp_L1", "l1pt >= 22 && l1q >= 12", "l1pt", "l1q"),
 )
 
 # Define cuts on variables
