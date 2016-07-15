@@ -37,7 +37,7 @@ Variables = cms.PSet(
 
 # Defines all the discrete variables which are intended for use in the efficiencies
 Categories = cms.PSet(
-    NewHighPtID = cms.vstring('NewHighPtID', 'dummy[pass=1,fail=0]'),
+    HighPt = cms.vstring('HighPt', 'dummy[pass=1,fail=0]'),
     tag_IsoMu20 = cms.vstring('Tag matched to IsoMu20', 'dummy[pass=1,fail=0]'),
     Mu50 = cms.vstring('Mu50', 'dummy[pass=1,fail=0]'),
 )
@@ -66,7 +66,7 @@ Efficiencies = cms.PSet(
             abseta = cms.vdouble(1.4, 1.5),
             relTkIso = cms.vdouble(0, 0.1),
             pt = cms.vdouble(0, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 80, 120, 200, 500),
-            NewHighPtID = cms.vstring('pass'),
+            HighPt = cms.vstring('pass'),
             tag_IsoMu20 = cms.vstring('pass')
             ),
         BinToPDFmap = cms.vstring("vpvPlusExpo"),
