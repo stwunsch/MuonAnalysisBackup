@@ -5,3 +5,4 @@ START
 SKIP
 *.swp
 configurations/
+results/
