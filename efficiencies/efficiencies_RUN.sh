@@ -173,9 +173,19 @@ fi
 
 ###############################################################################
 # CALCULATE EFFICIENCIES OF DATA AND MC SEPARATELY
+# WITH STATISTICAL AND SYSTEMATICAL ERRORS
 ###############################################################################
 
+# The first ROOT file is the 'main' configuration file output, which is used to
+# calculate the statistical error and the efficiencies per bin. The other files
+# are used to calculate the systematical error by calculating the RMS value with
+# a fixed mean of the first 'main' ROOT file.
+
+filelist_DATA="configurations/sys/MuonTagAndProbe_DATA.root configurations/stat/1/MuonTagAndProbe_DATA.root configurations/stat/2/MuonTagAndProbe_DATA.root"
+
+root -l -b -q $filelist_DATA calcEfficiencies.C
 
 ###############################################################################
 # CALCULATE EFFICIENCY RATIO OF DATA AND MC
+# WITH STATISTICAL AND SYSTEMATICAL ERRORS
 ###############################################################################
