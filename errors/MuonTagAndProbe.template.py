@@ -20,7 +20,7 @@ TnP Configuration
 InputFileNames = cms.vstring(filename)
 InputDirectoryName = cms.string("tpTree")
 InputTreeName = cms.string("fitter_tree")
-OutputFileName = cms.string("MuonTagAndProbe_@type.root")
+OutputFileName = cms.string("MuonTagAndProbe_@identifier.root")
 
 # Defines all the real variables which are intended for use in the efficiencies
 Variables = cms.PSet(
@@ -60,7 +60,7 @@ Efficiencies = cms.PSet(
             pair_probeMultiplicity = cms.vdouble(0.5, 1.5),
             dzPV = cms.vdouble(-0.5, 0.5),
             dB = cms.vdouble(0.0, 0.2),
-            abseta = cms.vdouble(1.4, 1.5),
+            abseta = cms.vdouble(0.0, 2.4),
             relTkIso = cms.vdouble(0, 0.1),
             pt = cms.vdouble(0, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 80, 120, 200, 500),
             HighPt = cms.vstring('pass'),

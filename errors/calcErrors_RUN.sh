@@ -63,44 +63,112 @@ fi
 
 ###############################################################################
 # GENERATE AND RUN CONFIGURATION FILES FROM TEMPLATE
+# FOR EFFICIENCY AND STATISTICAL ERROR
 ###############################################################################
 
-# Make main configuration files for efficiency measurement and statistical error measurement
-
-mkdir -p configurations/stat
-# DATA process
-sed -e 's/@type/DATA/' \
+configuration_dir=configurations/stat
+pwd_dir=$(pwd)
+mkdir -p $configuration_dir
+sed -e 's/@identifier/DATA/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
     -e 's/@binsForFit/40/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
-    MuonTagAndProbe.template.py > configurations/stat/MuonTagAndProbe_DATA.py
-# MC process
-sed -e 's/@type/MC/' \
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_DATA.py
+sed -e 's/@identifier/MC/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
     -e 's/@binsForFit/40/' \
-    -e 's/@defineVariableWeight/weight = cms.vstring('weight', '-10', '10', ''),/' \
+    -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \
     -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
-    MuonTagAndProbe.template.py > configurations/stat/MuonTagAndProbe_MC.py
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_MC.py
 
-# Make different configurations for systematical error measurement
-
-# Run all of the generated configuration files
-
-if [ -f configurations/stat/SKIP ];
+if [ -f $configuration_dir/SKIP ];
 then
-    echo "[INFO] Skip executing files in configurations/stat"
+    echo "[INFO] Skip executing files in" $configuration_dir
 else
-    echo "[INFO] Run files in configurations/stat"
-    cd configurations/stat
+    echo "[INFO] Run files in " $configuration_dir
+    cd $configuration_dir
     touch SKIP
-    cmsRun MuonTagAndProbe_DATA.py ../../subTree_DATA.root
-    cmsRun MuonTagAndProbe_MC.py ../../tnpZ_withNVtxWeights.root
-    cd ../..
+    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root
+    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root
+    cd $pwd_dir
+fi
+
+###############################################################################
+# GENERATE AND RUN CONFIGURATION FILES FROM TEMPLATE
+# FOR SYSTEMATICAL ERROR
+###############################################################################
+
+# Make different configurations for systematical error measurement.
+# Simply do a copy and paste from the configuration above and change the
+# 'configuration_dir' variable.
+
+configuration_dir=configurations/sys/1
+pwd_dir=$(pwd)
+mkdir -p $configuration_dir
+sed -e 's/@identifier/DATA/' \
+    -e 's/@massMin/"70"/' \
+    -e 's/@massMax/"110"/' \
+    -e 's/@binsForFit/30/' \
+    -e 's/@defineVariableWeight//' \
+    -e 's/@unbinnedVariableWeight//' \
+    -e 's/@setProcessVariableWeight//' \
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_DATA.py
+sed -e 's/@identifier/MC/' \
+    -e 's/@massMin/"70"/' \
+    -e 's/@massMax/"110"/' \
+    -e 's/@binsForFit/30/' \
+    -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
+    -e 's/@unbinnedVariableWeight/"weight"/' \
+    -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_MC.py
+
+if [ -f $configuration_dir/SKIP ];
+then
+    echo "[INFO] Skip executing files in" $configuration_dir
+else
+    echo "[INFO] Run files in " $configuration_dir
+    cd $configuration_dir
+    touch SKIP
+    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root
+    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root
+    cd $pwd_dir
+fi
+
+configuration_dir=configurations/sys/2
+pwd_dir=$(pwd)
+mkdir -p $configuration_dir
+sed -e 's/@identifier/DATA/' \
+    -e 's/@massMin/"70"/' \
+    -e 's/@massMax/"100"/' \
+    -e 's/@binsForFit/40/' \
+    -e 's/@defineVariableWeight//' \
+    -e 's/@unbinnedVariableWeight//' \
+    -e 's/@setProcessVariableWeight//' \
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_DATA.py
+sed -e 's/@identifier/MC/' \
+    -e 's/@massMin/"80"/' \
+    -e 's/@massMax/"110"/' \
+    -e 's/@binsForFit/40/' \
+    -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
+    -e 's/@unbinnedVariableWeight/"weight"/' \
+    -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_MC.py
+
+if [ -f $configuration_dir/SKIP ];
+then
+    echo "[INFO] Skip executing files in" $configuration_dir
+else
+    echo "[INFO] Run files in " $configuration_dir
+    cd $configuration_dir
+    touch SKIP
+    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root
+    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root
+    cd $pwd_dir
 fi
 
 ###############################################################################
