@@ -1,5 +1,9 @@
 #!/bin/bash
 
+###############################################################################
+# ERROR HANDLING
+###############################################################################
+
 # Check whether CMSSW is setup
 
 if [ -z $CMSSW_BASE ];
@@ -15,6 +19,10 @@ then
     echo "[ERROR] Please execute the script in the same folder where it is placed."
     exit 1
 fi
+
+###############################################################################
+# PREPROCESS INPUT FILES
+###############################################################################
 
 # Setup input files (DATA and MC)
 
@@ -53,15 +61,53 @@ else
     root -l -b -q subTree_MC.root subTree_DATA.root addNVtxWeight.cxx
 fi
 
-# Go through files in directory $processes_dir and execute the python configuration files with csmRun
+###############################################################################
+# GENERATE AND RUN CONFIGURATION FILES FROM TEMPLATE
+###############################################################################
 
-processes_dir="processes/"
+# Make main configuration files for efficiency measurement and statistical error measurement
 
-if [ -f $processes_dir/SKIP ];
+mkdir -p configurations/stat
+# DATA process
+sed -e 's/@type/DATA/' \
+    -e 's/@massMin/"70"/' \
+    -e 's/@massMax/"110"/' \
+    -e 's/@binsForFit/40/' \
+    -e 's/@defineVariableWeight//' \
+    -e 's/@unbinnedVariableWeight//' \
+    -e 's/@setProcessVariableWeight//' \
+    MuonTagAndProbe.template.py > configurations/stat/MuonTagAndProbe_DATA.py
+# MC process
+sed -e 's/@type/MC/' \
+    -e 's/@massMin/"70"/' \
+    -e 's/@massMax/"110"/' \
+    -e 's/@binsForFit/40/' \
+    -e 's/@defineVariableWeight/weight = cms.vstring('weight', '-10', '10', ''),/' \
+    -e 's/@unbinnedVariableWeight/"weight"/' \
+    -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
+    MuonTagAndProbe.template.py > configurations/stat/MuonTagAndProbe_MC.py
+
+# Make different configurations for systematical error measurement
+
+# Run all of the generated configuration files
+
+if [ -f configurations/stat/SKIP ];
 then
-    echo "[INFO] Skip executing python configuration files in " $processes_dir "because SKIP file exists."
+    echo "[INFO] Skip executing files in configurations/stat"
 else
-    echo "[INFO] Execute all python files in directory:" $processes_dir
-    touch $processes_dir/SKIP
-    find $(pwd)/$processes_dir -name *.py -exec echo Executing: cmsRun {} \; -exec csmRun {} \;
+    echo "[INFO] Run files in configurations/stat"
+    cd configurations/stat
+    touch SKIP
+    cmsRun MuonTagAndProbe_DATA.py ../../subTree_DATA.root
+    cmsRun MuonTagAndProbe_MC.py ../../tnpZ_withNVtxWeights.root
+    cd ../..
 fi
+
+###############################################################################
+# CALCULATE EFFICIENCIES OF DATA AND MC SEPARATELY
+###############################################################################
+
+
+###############################################################################
+# CALCULATE EFFICIENCY RATIO OF DATA AND MC
+###############################################################################
