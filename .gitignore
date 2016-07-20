@@ -3,3 +3,5 @@
 nVtx.png
 START
 SKIP
+*.swp
+configurations/
