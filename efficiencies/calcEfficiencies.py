@@ -72,9 +72,22 @@ for i in range(numPoints):
     # FIXME: set the y errors correctly!
     gSys.SetPointError(i, vStatErrXlow, vStatErrXhigh, vDiffSysY/2, vDiffSysY/2) # set Y error as RMS value of points from different graphs
 
+# Copy style of graph and write it to file
 gSys.SetTitle(gStat.GetTitle());
+gSys.SetLineStyle(gStat.GetLineStyle());
+gSys.SetLineWidth(gStat.GetLineWidth());
+gSys.SetMarkerStyle(gStat.GetMarkerStyle());
+gSys.SetMarkerSize(gStat.GetMarkerSize());
 gSys.GetXaxis().SetTitle(gStat.GetXaxis().GetTitle());
+gSys.GetXaxis().SetTitleFont(gStat.GetXaxis().GetTitleFont());
+gSys.GetXaxis().SetTitleSize(gStat.GetXaxis().GetTitleSize());
+gSys.GetXaxis().SetLabelFont(gStat.GetXaxis().GetLabelFont());
+gSys.GetXaxis().SetLabelSize(gStat.GetXaxis().GetLabelSize());
 gSys.GetYaxis().SetTitle(gStat.GetYaxis().GetTitle());
+gSys.GetYaxis().SetTitleFont(gStat.GetYaxis().GetTitleFont());
+gSys.GetYaxis().SetTitleSize(gStat.GetYaxis().GetTitleSize());
+gSys.GetYaxis().SetLabelFont(gStat.GetYaxis().GetLabelFont());
+gSys.GetYaxis().SetLabelSize(gStat.GetYaxis().GetLabelSize());
 gSys.SetName("sys_err")
 gSys.Write()
 
@@ -83,6 +96,11 @@ Generate a control plot by putting all graphs together in one plot and
 store it to the output file
 """
 
-
+gControl = TMultiGraph()
+for graph in inputGraphs:
+    gControl.Add(graph)
+gControl.SetTitle(gStat.GetTitle());
+gControl.SetName("control_plot")
+gControl.Write()
 
 outputFile.Close()

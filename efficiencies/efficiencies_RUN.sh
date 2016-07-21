@@ -186,6 +186,10 @@ echo "[INFO] Calculating efficencies and errors for DATA only."
 filelist_DATA="configurations/stat/MuonTagAndProbe_DATA.root configurations/sys/1/MuonTagAndProbe_DATA.root configurations/sys/2/MuonTagAndProbe_DATA.root"
 python calcEfficiencies.py "results/efficiencies_DATA.root" $filelist_DATA
 
+echo "[INFO] Calculating efficencies and errors for MC only."
+filelist_MC="configurations/stat/MuonTagAndProbe_MC.root configurations/sys/1/MuonTagAndProbe_MC.root configurations/sys/2/MuonTagAndProbe_MC.root"
+python calcEfficiencies.py "results/efficiencies_MC.root" $filelist_MC
+
 ###############################################################################
 # CALCULATE EFFICIENCY RATIO OF DATA AND MC
 # WITH STATISTICAL AND SYSTEMATICAL ERRORS
