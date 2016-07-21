@@ -14,7 +14,7 @@ fi
 
 # Check whether the file is executed in the same directory where it is placed
 
-if [ ! -f calcErrors_RUN.sh ];
+if [ ! -f efficiencies_RUN.sh ];
 then
     echo "[ERROR] Please execute the script in the same folder where it is placed."
     exit 1
@@ -93,8 +93,8 @@ else
     echo "[INFO] Run files in " $configuration_dir
     cd $configuration_dir
     touch SKIP
-    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root
-    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root
+    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root >> cmsRunOutput
+    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root >> cmsRunOutput
     cd $pwd_dir
 fi
 
@@ -134,8 +134,8 @@ else
     echo "[INFO] Run files in " $configuration_dir
     cd $configuration_dir
     touch SKIP
-    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root
-    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root
+    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root >> cmsRunOutput
+    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root >> cmsRunOutput
     cd $pwd_dir
 fi
 
@@ -166,8 +166,8 @@ else
     echo "[INFO] Run files in " $configuration_dir
     cd $configuration_dir
     touch SKIP
-    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root
-    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root
+    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root >> cmsRunOutput
+    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root >> cmsRunOutput
     cd $pwd_dir
 fi
 
@@ -181,9 +181,10 @@ fi
 # are used to calculate the systematical error by calculating the RMS value with
 # a fixed mean of the first 'main' ROOT file.
 
-filelist_DATA="configurations/sys/MuonTagAndProbe_DATA.root configurations/stat/1/MuonTagAndProbe_DATA.root configurations/stat/2/MuonTagAndProbe_DATA.root"
-
-root -l -b -q $filelist_DATA calcEfficiencies.C
+mkdir -p results
+echo "[INFO] Calculating efficencies and errors for DATA only."
+filelist_DATA="configurations/stat/MuonTagAndProbe_DATA.root configurations/sys/1/MuonTagAndProbe_DATA.root configurations/sys/2/MuonTagAndProbe_DATA.root"
+python calcEfficiencies.py "results/efficiencies_DATA.root" $filelist_DATA
 
 ###############################################################################
 # CALCULATE EFFICIENCY RATIO OF DATA AND MC
