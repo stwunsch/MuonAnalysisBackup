@@ -110,7 +110,7 @@ mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
-    -e 's/@binsForFit/20/' \
+    -e 's/@binsForFit/30/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
@@ -118,7 +118,7 @@ sed -e 's/@identifier/DATA/' \
 sed -e 's/@identifier/MC/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
-    -e 's/@binsForFit/20/' \
+    -e 's/@binsForFit/30/' \
     -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \
     -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
@@ -143,7 +143,7 @@ mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
-    -e 's/@binsForFit/60/' \
+    -e 's/@binsForFit/50/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
@@ -151,7 +151,7 @@ sed -e 's/@identifier/DATA/' \
 sed -e 's/@identifier/MC/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
-    -e 's/@binsForFit/60/' \
+    -e 's/@binsForFit/50/' \
     -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \
     -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
@@ -174,16 +174,16 @@ configuration_dir=configurations/sys/3
 pwd_dir=$(pwd)
 mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
-    -e 's/@massMin/"50"/' \
-    -e 's/@massMax/"130"/' \
+    -e 's/@massMin/"60"/' \
+    -e 's/@massMax/"120"/' \
     -e 's/@binsForFit/40/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
     MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_DATA.py
 sed -e 's/@identifier/MC/' \
-    -e 's/@massMin/"50"/' \
-    -e 's/@massMax/"130"/' \
+    -e 's/@massMin/"60"/' \
+    -e 's/@massMax/"120"/' \
     -e 's/@binsForFit/40/' \
     -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \
@@ -207,16 +207,16 @@ configuration_dir=configurations/sys/4
 pwd_dir=$(pwd)
 mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
-    -e 's/@massMin/"80"/' \
-    -e 's/@massMax/"100"/' \
+    -e 's/@massMin/"50"/' \
+    -e 's/@massMax/"130"/' \
     -e 's/@binsForFit/30/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
     MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_DATA.py
 sed -e 's/@identifier/MC/' \
-    -e 's/@massMin/"80"/' \
-    -e 's/@massMax/"100"/' \
+    -e 's/@massMin/"50"/' \
+    -e 's/@massMax/"130"/' \
     -e 's/@binsForFit/40/' \
     -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \

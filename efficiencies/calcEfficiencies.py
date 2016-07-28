@@ -67,12 +67,12 @@ for i in range(numPoints):
         vSysY = Double(0)
         graph.GetPoint(i, vSysX, vSysY)
         vDiffSysY += (vStatY - vSysY)**2 # squared difference as measure
-    # FIXME: do i have to use the unbiased version here?
-    vDiffSysY = np.sqrt(vDiffSysY/(numGraphs-1)) # take sqrt and mean
+    # NOTE: We sum the errors in quadrature as a conservative measurement. You
+    # have to ensure that the tested configurations are sensible!
+    vDiffSysY = np.sqrt(vDiffSysY) # take sqrt
     vStatErrXlow = gStat.GetErrorXlow(i) # X error from reference graph is copied
     vStatErrXhigh = gStat.GetErrorXhigh(i)
-    # FIXME: set the y errors correctly! Only half ov vDiffSysY?
-    gSys.SetPointError(i, vStatErrXlow, vStatErrXhigh, vDiffSysY, vDiffSysY) # set Y error as RMS value of points from different graphs
+    gSys.SetPointError(i, vStatErrXlow, vStatErrXhigh, vDiffSysY, vDiffSysY) # set Y error
 
 # Copy style of graph and write it to file
 gSys.SetTitle(gStat.GetTitle());

@@ -143,10 +143,10 @@ for iPoint in range(numPoints):
     vDiffSysY = 0
     for iGraph in range(1,numGraphs):
         vDiffSysY += (ratios[0, iPoint] - ratios[iGraph, iPoint])**2 # squared difference as measure
-    # FIXME: do i have to use the unbiased version here?
-    vDiffSysY = np.sqrt(vDiffSysY/(numGraphs-1)) # take sqrt and mean
-    # FIXME: set the y errors correctly! Only half ov vDiffSysY?
-    gSys.SetPointError(iPoint, vStatErrXlowDATA, vStatErrXhighDATA, vDiffSysY, vDiffSysY) # set Y error as RMS value of points from different graphs
+    # NOTE: We sum the errors in quadrature as a conservative measurement. You
+    # have to ensure that the tested configurations are sensible!
+    vDiffSysY = np.sqrt(vDiffSysY) # take sqrt
+    gSys.SetPointError(iPoint, vStatErrXlowDATA, vStatErrXhighDATA, vDiffSysY, vDiffSysY) # set Y error
 
 # Copy style of graph and write it to file
 gRef = inputGraphsDATA[0]
