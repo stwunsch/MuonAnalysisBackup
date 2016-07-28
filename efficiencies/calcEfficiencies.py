@@ -1,6 +1,6 @@
 import sys
 from ROOT import *
-from math import *
+import numpy as np
 
 """
 Get filenames from arguments
@@ -52,13 +52,14 @@ errors as a new graph in the output file.
 """
 
 numPoints = gStat.GetN()
+numGraphs = len(inputGraphs)
 gSys = TGraphAsymmErrors(numPoints)
 
 for i in range(numPoints):
     vStatY = Double(0) # that is the reference
     vStatX = Double(0)
     gStat.GetPoint(i, vStatX, vStatY)
-    gSys.SetPoint(i, vStatX, vStatY) # copy point from reference grpah
+    gSys.SetPoint(i, vStatX, vStatY) # copy point from reference graph
 
     vDiffSysY = Double(0)
     for graph in inputGraphs[1:]: # get here the values from the other graphs
@@ -66,11 +67,12 @@ for i in range(numPoints):
         vSysY = Double(0)
         graph.GetPoint(i, vSysX, vSysY)
         vDiffSysY += (vStatY - vSysY)**2 # squared difference as measure
-    vDiffSysY = sqrt(vDiffSysY)/numPoints # take sqrt and mean
+    # FIXME: do i have to use the unbiased version here?
+    vDiffSysY = np.sqrt(vDiffSysY/(numGraphs-1)) # take sqrt and mean
     vStatErrXlow = gStat.GetErrorXlow(i) # X error from reference graph is copied
     vStatErrXhigh = gStat.GetErrorXhigh(i)
-    # FIXME: set the y errors correctly!
-    gSys.SetPointError(i, vStatErrXlow, vStatErrXhigh, vDiffSysY/2, vDiffSysY/2) # set Y error as RMS value of points from different graphs
+    # FIXME: set the y errors correctly! Only half ov vDiffSysY?
+    gSys.SetPointError(i, vStatErrXlow, vStatErrXhigh, vDiffSysY, vDiffSysY) # set Y error as RMS value of points from different graphs
 
 # Copy style of graph and write it to file
 gSys.SetTitle(gStat.GetTitle());
@@ -100,7 +102,7 @@ gControl = TMultiGraph()
 for graph in inputGraphs:
     gControl.Add(graph)
 gControl.SetTitle(gStat.GetTitle());
-gControl.SetName("control_plot")
+gControl.SetName("control_plot_graphs")
 gControl.Write()
 
 outputFile.Close()

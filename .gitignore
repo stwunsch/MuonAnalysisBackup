@@ -6,3 +6,4 @@ SKIP
 *.swp
 configurations/
 results/
+*.session
