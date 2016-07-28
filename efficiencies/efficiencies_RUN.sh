@@ -62,7 +62,7 @@ fi
 ###############################################################################
 
 # Configuration for efficiency measurement and statistical error
-configuration_dir=configurations/stat
+configuration_dir=configs_pt/stat
 pwd_dir=$(pwd)
 mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
@@ -104,7 +104,7 @@ fi
 # 'configuration_dir' variable.
 
 # Configuration 1 for systematical error
-configuration_dir=configurations/sys/1
+configuration_dir=configs_pt/sys/1
 pwd_dir=$(pwd)
 mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
@@ -137,7 +137,7 @@ else
 fi
 
 # Configuration 2 for systematical error
-configuration_dir=configurations/sys/2
+configuration_dir=configs_pt/sys/2
 pwd_dir=$(pwd)
 mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
@@ -170,7 +170,7 @@ else
 fi
 
 # Configuration 3 for systematical error
-configuration_dir=configurations/sys/3
+configuration_dir=configs_pt/sys/3
 pwd_dir=$(pwd)
 mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
@@ -203,7 +203,7 @@ else
 fi
 
 # Configuration 4 for systematical error
-configuration_dir=configurations/sys/4
+configuration_dir=configs_pt/sys/4
 pwd_dir=$(pwd)
 mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
@@ -247,11 +247,11 @@ fi
 
 mkdir -p results
 echo "[INFO] Calculating efficencies and errors for DATA only"
-filelist_DATA="configurations/stat/MuonTagAndProbe_DATA.root configurations/sys/1/MuonTagAndProbe_DATA.root configurations/sys/2/MuonTagAndProbe_DATA.root"
+filelist_DATA="configs_pt/stat/MuonTagAndProbe_DATA.root configs_pt/sys/1/MuonTagAndProbe_DATA.root configs_pt/sys/2/MuonTagAndProbe_DATA.root"
 python calcEfficiencies.py "results/efficiencies_DATA.root" $filelist_DATA
 
 echo "[INFO] Calculating efficencies and errors for MC only"
-filelist_MC="configurations/stat/MuonTagAndProbe_MC.root configurations/sys/1/MuonTagAndProbe_MC.root configurations/sys/2/MuonTagAndProbe_MC.root"
+filelist_MC="configs_pt/stat/MuonTagAndProbe_MC.root configs_pt/sys/1/MuonTagAndProbe_MC.root configs_pt/sys/2/MuonTagAndProbe_MC.root"
 python calcEfficiencies.py "results/efficiencies_MC.root" $filelist_MC
 
 ###############################################################################
