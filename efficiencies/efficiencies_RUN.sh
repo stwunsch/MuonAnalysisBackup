@@ -247,11 +247,11 @@ fi
 
 mkdir -p results
 echo "[INFO] Calculating efficencies and errors for DATA only"
-filelist_DATA="configs_pt/stat/MuonTagAndProbe_DATA.root configs_pt/sys/1/MuonTagAndProbe_DATA.root configs_pt/sys/2/MuonTagAndProbe_DATA.root"
+filelist_DATA="configs_pt/stat/MuonTagAndProbe_DATA.root configs_pt/sys/1/MuonTagAndProbe_DATA.root configs_pt/sys/2/MuonTagAndProbe_DATA.root configs_pt/sys/3/MuonTagAndProbe_DATA.root configs_pt/sys/4/MuonTagAndProbe_DATA.root"
 python calcEfficiencies.py "results/efficiencies_DATA.root" $filelist_DATA
 
 echo "[INFO] Calculating efficencies and errors for MC only"
-filelist_MC="configs_pt/stat/MuonTagAndProbe_MC.root configs_pt/sys/1/MuonTagAndProbe_MC.root configs_pt/sys/2/MuonTagAndProbe_MC.root"
+filelist_MC="configs_pt/stat/MuonTagAndProbe_MC.root configs_pt/sys/1/MuonTagAndProbe_MC.root configs_pt/sys/2/MuonTagAndProbe_MC.root configs_pt/sys/3/MuonTagAndProbe_MC.root configs_pt/sys/4/MuonTagAndProbe_MC.root"
 python calcEfficiencies.py "results/efficiencies_MC.root" $filelist_MC
 
 ###############################################################################
