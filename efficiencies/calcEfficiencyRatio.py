@@ -1,5 +1,4 @@
 import sys
-from ROOT import *
 import numpy as np
 
 """
@@ -20,6 +19,17 @@ inputFilenamesMC = sys.argv[2+numRootFiles/2:]
 print "[INFO] Output file:", outputFilename
 print "[INFO] Input files (DATA):", inputFilenamesDATA
 print "[INFO] Input files (MC):", inputFilenamesMC
+
+# Set ROOT to batch mode (so canvases do not show up) and import it
+
+sys.argv.append('-b')
+from ROOT import *
+
+# Setup colormap
+
+colorMap = [kBlack, kBlue, kOrange, kRed, kGreen, kAzure, kYellow, kPink, kMagenta, kViolet, kCyan, kSpring] # NOTE: the first one has to be kBlack, because this is the reference graph
+if len(inputFilenamesDATA)>len(colorMap):
+    print "[WARNING] The number of graphs ({}) is greater than the number of different colors in the colormap ({}).".format(len(inputFilenames), len(colorMap))
 
 """
 Get TGraphAsymmErrors from input files
@@ -172,13 +182,15 @@ Put graphs used for uncertainty/error calculations in a control plot
 """
 
 gControlGraphsDATA = TMultiGraph()
-for graph in inputGraphsDATA:
+for k, graph in enumerate(inputGraphsDATA):
+    graph.SetLineColor(colorMap[k%len(colorMap)])
     gControlGraphsDATA.Add(graph)
 gControlGraphsDATA.SetTitle(gRef.GetTitle());
 gControlGraphsDATA.SetName("control_plot_graphs_DATA")
 
 gControlGraphsMC = TMultiGraph()
-for graph in inputGraphsMC:
+for k, graph in enumerate(inputGraphsMC):
+    graph.SetLineColor(colorMap[k%len(colorMap)])
     gControlGraphsMC.Add(graph)
 gControlGraphsMC.SetTitle(gRef.GetTitle());
 gControlGraphsMC.SetName("control_plot_graphs_MC")
@@ -196,10 +208,50 @@ for iGraph in range(numGraphs):
     graph.SetLineWidth(gRef.GetLineWidth());
     graph.SetMarkerStyle(gRef.GetMarkerStyle());
     graph.SetMarkerSize(gRef.GetMarkerSize());
+    graph.SetLineColor(colorMap[iGraph%len(colorMap)])
     gControlRatios.Add(graph)
 gControlRatios.SetTitle("Ratio: "+gRef.GetTitle())
 
 gControlRatios.SetName("control_plot_ratios")
+
+"""
+Plot deviations of all ratios used for systematic uncertainty relative to
+reference ratio (from first files in lists, stat. uncertainty)
+"""
+
+gControlRatiosDev = TMultiGraph()
+for iGraph in range(1,numGraphs):
+    graph = TGraph(numPoints)
+    for iPoint in range(numPoints):
+        # FIXME: this is right?
+        if ratios[0, iPoint] != 0:
+            graph.SetPoint(iPoint, valuesXDATA[iPoint], (ratios[iGraph, iPoint]-ratios[0, iPoint])/ratios[0, iPoint])
+        else:
+            graph.SetPoint(iPoint, valuesXDATA[iPoint], -1)
+    graph.SetLineStyle(gRef.GetLineStyle());
+    graph.SetLineWidth(gRef.GetLineWidth());
+    graph.SetMarkerStyle(gRef.GetMarkerStyle());
+    graph.SetMarkerSize(gRef.GetMarkerSize());
+    graph.SetLineColor(colorMap[iGraph%len(colorMap)])
+    gControlRatiosDev.Add(graph)
+gControlRatiosDev.SetTitle("Ratio deviation: "+gRef.GetTitle())
+
+gControlRatiosDev.SetName("control_plot_ratios_dev")
+
+"""
+Store a legend made of the inputFilenames to the output file
+"""
+
+canvasLegend = TCanvas("legend", "legend", 500, 500)
+leg = TLegend(0.2, 0.2, 0.8, 0.8)
+h = []
+for k in range(len(inputFilenamesDATA)):
+    h.append(TH1F("", "", 1, 0, 1))
+    h[k].SetLineColor(colorMap[k%len(colorMap)])
+    h[k].SetLineWidth(10)
+    leg.AddEntry(h[k], inputFilenamesDATA[k], "l")
+    leg.AddEntry(0, inputFilenamesMC[k], "")
+leg.Draw()
 
 """
 Write plots to file
@@ -211,4 +263,6 @@ gSys.Write()
 gControlGraphsDATA.Write()
 gControlGraphsMC.Write()
 gControlRatios.Write()
+gControlRatiosDev.Write()
+canvasLegend.Write()
 outputFile.Close()

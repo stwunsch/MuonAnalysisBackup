@@ -1,5 +1,4 @@
 import sys
-from ROOT import *
 import numpy as np
 
 """
@@ -17,6 +16,17 @@ inputFilenames = sys.argv[2:]
 print "[INFO] Output file:", outputFilename
 print "[INFO] Input file (stat. error):", inputFilenames[0]
 print "[INFO] Input files (sys. error):", inputFilenames[1:]
+
+# Set ROOT to batch mode (so canvases do not show up) and import it
+
+sys.argv.append('-b')
+from ROOT import *
+
+# Setup colormap
+
+colorMap = [kBlack, kBlue, kOrange, kRed, kGreen, kAzure, kYellow, kPink, kMagenta, kViolet, kCyan, kSpring] # NOTE: the first one has to be kBlack, because this is the reference graph
+if len(inputFilenames)>len(colorMap):
+    print "[WARNING] The number of graphs ({}) is greater than the number of different colors in the colormap ({}).".format(len(inputFilenames), len(colorMap))
 
 """
 Get TGraphAsymmErrors from input files
@@ -94,12 +104,28 @@ gSys.SetName("sys_err")
 gSys.Write()
 
 """
+Store a legend made of the inputFilenames to the output file
+"""
+
+canvasLegend = TCanvas("legend", "legend", 500, 500)
+leg = TLegend(0.2, 0.2, 0.8, 0.8)
+h = []
+for k in range(len(inputFilenames)):
+    h.append(TH1F("", "", 1, 0, 1))
+    h[k].SetLineColor(colorMap[k%len(colorMap)])
+    h[k].SetLineWidth(10)
+    leg.AddEntry(h[k], inputFilenames[k], "l")
+leg.Draw()
+canvasLegend.Write()
+
+"""
 Generate a control plot by putting all graphs together in one plot and
 store it to the output file
 """
 
 gControl = TMultiGraph()
-for graph in inputGraphs:
+for k, graph in enumerate(inputGraphs):
+    graph.SetLineColor(colorMap[k%len(colorMap)])
     gControl.Add(graph)
 gControl.SetTitle(gStat.GetTitle());
 gControl.SetName("control_plot_graphs")
