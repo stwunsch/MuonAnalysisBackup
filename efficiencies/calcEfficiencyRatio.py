@@ -223,9 +223,8 @@ gControlRatiosDev = TMultiGraph()
 for iGraph in range(1,numGraphs):
     graph = TGraph(numPoints)
     for iPoint in range(numPoints):
-        # FIXME: this is right?
         if ratios[0, iPoint] != 0:
-            graph.SetPoint(iPoint, valuesXDATA[iPoint], (ratios[iGraph, iPoint]-ratios[0, iPoint])/ratios[0, iPoint])
+            graph.SetPoint(iPoint, valuesXDATA[iPoint], ratios[iGraph, iPoint]-ratios[0, iPoint])
         else:
             graph.SetPoint(iPoint, valuesXDATA[iPoint], -1)
     graph.SetLineStyle(gRef.GetLineStyle());

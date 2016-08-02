@@ -69,6 +69,7 @@ sed -e 's/@identifier/DATA/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
     -e 's/@binsForFit/40/' \
+    -e 's/@tagPtMin/22/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
@@ -77,6 +78,7 @@ sed -e 's/@identifier/MC/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
     -e 's/@binsForFit/40/' \
+    -e 's/@tagPtMin/22/' \
     -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \
     -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
@@ -111,6 +113,7 @@ sed -e 's/@identifier/DATA/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
     -e 's/@binsForFit/30/' \
+    -e 's/@tagPtMin/22/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
@@ -119,6 +122,7 @@ sed -e 's/@identifier/MC/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
     -e 's/@binsForFit/30/' \
+    -e 's/@tagPtMin/22/' \
     -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \
     -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
@@ -144,6 +148,7 @@ sed -e 's/@identifier/DATA/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
     -e 's/@binsForFit/50/' \
+    -e 's/@tagPtMin/22/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
@@ -152,6 +157,7 @@ sed -e 's/@identifier/MC/' \
     -e 's/@massMin/"70"/' \
     -e 's/@massMax/"110"/' \
     -e 's/@binsForFit/50/' \
+    -e 's/@tagPtMin/22/' \
     -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \
     -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
@@ -177,6 +183,7 @@ sed -e 's/@identifier/DATA/' \
     -e 's/@massMin/"60"/' \
     -e 's/@massMax/"120"/' \
     -e 's/@binsForFit/40/' \
+    -e 's/@tagPtMin/22/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
@@ -185,6 +192,7 @@ sed -e 's/@identifier/MC/' \
     -e 's/@massMin/"60"/' \
     -e 's/@massMax/"120"/' \
     -e 's/@binsForFit/40/' \
+    -e 's/@tagPtMin/22/' \
     -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \
     -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
@@ -210,6 +218,7 @@ sed -e 's/@identifier/DATA/' \
     -e 's/@massMin/"50"/' \
     -e 's/@massMax/"130"/' \
     -e 's/@binsForFit/30/' \
+    -e 's/@tagPtMin/22/' \
     -e 's/@defineVariableWeight//' \
     -e 's/@unbinnedVariableWeight//' \
     -e 's/@setProcessVariableWeight//' \
@@ -218,6 +227,77 @@ sed -e 's/@identifier/MC/' \
     -e 's/@massMin/"50"/' \
     -e 's/@massMax/"130"/' \
     -e 's/@binsForFit/40/' \
+    -e 's/@tagPtMin/22/' \
+    -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
+    -e 's/@unbinnedVariableWeight/"weight"/' \
+    -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_MC.py
+
+if [ -f $configuration_dir/SKIP ];
+then
+    echo "[INFO] Skip executing files in" $configuration_dir
+else
+    echo "[INFO] Run files in " $configuration_dir
+    cd $configuration_dir
+    touch SKIP
+    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root >> cmsRunOutput
+    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root >> cmsRunOutput
+    cd $pwd_dir
+fi
+
+# Configuration 5 for systematical error
+configuration_dir=configs/sys/5
+pwd_dir=$(pwd)
+mkdir -p $configuration_dir
+sed -e 's/@identifier/DATA/' \
+    -e 's/@massMin/"70"/' \
+    -e 's/@massMax/"110"/' \
+    -e 's/@binsForFit/40/' \
+    -e 's/@tagPtMin/24/' \
+    -e 's/@defineVariableWeight//' \
+    -e 's/@unbinnedVariableWeight//' \
+    -e 's/@setProcessVariableWeight//' \
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_DATA.py
+sed -e 's/@identifier/MC/' \
+    -e 's/@massMin/"70"/' \
+    -e 's/@massMax/"110"/' \
+    -e 's/@binsForFit/40/' \
+    -e 's/@tagPtMin/24/' \
+    -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
+    -e 's/@unbinnedVariableWeight/"weight"/' \
+    -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_MC.py
+
+if [ -f $configuration_dir/SKIP ];
+then
+    echo "[INFO] Skip executing files in" $configuration_dir
+else
+    echo "[INFO] Run files in " $configuration_dir
+    cd $configuration_dir
+    touch SKIP
+    cmsRun MuonTagAndProbe_DATA.py $pwd_dir/subTree_DATA.root >> cmsRunOutput
+    cmsRun MuonTagAndProbe_MC.py $pwd_dir/tnpZ_withNVtxWeights.root >> cmsRunOutput
+    cd $pwd_dir
+fi
+
+# Configuration 6 for systematical error
+configuration_dir=configs/sys/6
+pwd_dir=$(pwd)
+mkdir -p $configuration_dir
+sed -e 's/@identifier/DATA/' \
+    -e 's/@massMin/"70"/' \
+    -e 's/@massMax/"110"/' \
+    -e 's/@binsForFit/40/' \
+    -e 's/@tagPtMin/26/' \
+    -e 's/@defineVariableWeight//' \
+    -e 's/@unbinnedVariableWeight//' \
+    -e 's/@setProcessVariableWeight//' \
+    MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_DATA.py
+sed -e 's/@identifier/MC/' \
+    -e 's/@massMin/"70"/' \
+    -e 's/@massMax/"110"/' \
+    -e 's/@binsForFit/40/' \
+    -e 's/@tagPtMin/26/' \
     -e 's/@defineVariableWeight/weight = cms.vstring("weight", "-10", "10", ""),/' \
     -e 's/@unbinnedVariableWeight/"weight"/' \
     -e 's/@setProcessVariableWeight/WeightVariable = cms.string("weight"),/' \
@@ -247,11 +327,11 @@ fi
 
 mkdir -p results
 echo "[INFO] Calculating efficencies and errors for DATA only"
-filelist_DATA="configs/stat/MuonTagAndProbe_DATA.root configs/sys/1/MuonTagAndProbe_DATA.root configs/sys/2/MuonTagAndProbe_DATA.root configs/sys/3/MuonTagAndProbe_DATA.root configs/sys/4/MuonTagAndProbe_DATA.root"
+filelist_DATA="configs/stat/MuonTagAndProbe_DATA.root configs/sys/1/MuonTagAndProbe_DATA.root configs/sys/2/MuonTagAndProbe_DATA.root configs/sys/3/MuonTagAndProbe_DATA.root configs/sys/4/MuonTagAndProbe_DATA.root configs/sys/5/MuonTagAndProbe_DATA.root configs/sys/6/MuonTagAndProbe_DATA.root"
 python calcEfficiencies.py "results/efficiencies_DATA.root" $filelist_DATA
 
 echo "[INFO] Calculating efficencies and errors for MC only"
-filelist_MC="configs/stat/MuonTagAndProbe_MC.root configs/sys/1/MuonTagAndProbe_MC.root configs/sys/2/MuonTagAndProbe_MC.root configs/sys/3/MuonTagAndProbe_MC.root configs/sys/4/MuonTagAndProbe_MC.root"
+filelist_MC="configs/stat/MuonTagAndProbe_MC.root configs/sys/1/MuonTagAndProbe_MC.root configs/sys/2/MuonTagAndProbe_MC.root configs/sys/3/MuonTagAndProbe_MC.root configs/sys/4/MuonTagAndProbe_MC.root configs/sys/5/MuonTagAndProbe_MC.root configs/sys/6/MuonTagAndProbe_MC.root"
 python calcEfficiencies.py "results/efficiencies_MC.root" $filelist_MC
 
 ###############################################################################

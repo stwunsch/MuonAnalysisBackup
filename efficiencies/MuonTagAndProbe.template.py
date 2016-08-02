@@ -29,6 +29,7 @@ Variables = cms.PSet(
     pair_probeMultiplicity = cms.vstring('pair_probeMultiplicity', '0.20', '30.0', ''),
     mass = cms.vstring('Tag-muon Mass', @massMin, @massMax, 'GeV/c^{2}'),
     pt = cms.vstring('muon p_{T}', '0', '1000', 'GeV/c'),
+    tag_pt = cms.vstring('tag muon p_{T}', '0', '1000', 'GeV/c'),
     abseta = cms.vstring('muon #eta', '0', '2.4', '-'),
     relTkIso = cms.vstring('Relative track isolatoin', '0', '1', '-'),
     @defineVariableWeight
@@ -37,7 +38,7 @@ Variables = cms.PSet(
 # Defines all the discrete variables which are intended for use in the efficiencies
 Categories = cms.PSet(
     HighPt = cms.vstring('HighPt', 'dummy[pass=1,fail=0]'),
-    tag_IsoMu20 = cms.vstring('Tag matched to IsoMu20', 'dummy[pass=1,fail=0]'),
+    tag_IsoMu22 = cms.vstring('Tag matched to IsoMu22', 'dummy[pass=1,fail=0]'),
     Mu50 = cms.vstring('Mu50', 'dummy[pass=1,fail=0]'),
 )
 
@@ -64,7 +65,8 @@ Efficiencies = cms.PSet(
             relTkIso = cms.vdouble(0, 0.1),
             pt = cms.vdouble(52, 1000),
             HighPt = cms.vstring('pass'),
-            tag_IsoMu20 = cms.vstring('pass')
+            tag_IsoMu22 = cms.vstring('pass'),
+            tag_pt = cms.vdouble(@tagPtMin, 1000),
             ),
         BinToPDFmap = cms.vstring("vpvPlusExpo"),
     )
