@@ -24,7 +24,7 @@ from ROOT import *
 
 # Setup colormap
 
-colorMap = [kBlack, kBlue, kOrange, kRed, kGreen, kAzure, kYellow, kPink, kMagenta, kViolet, kCyan, kSpring] # NOTE: the first one has to be kBlack, because this is the reference graph
+colorMap = [kBlack, kBlue, kOrange, kRed, kGreen, kYellow, kViolet, kCyan] # NOTE: the first one has to be kBlack, because this is the reference graph
 if len(inputFilenames)>len(colorMap):
     print "[WARNING] The number of graphs ({}) is greater than the number of different colors in the colormap ({}).".format(len(inputFilenames), len(colorMap))
 
