@@ -215,7 +215,7 @@ configuration_dir=configs/sys/4
 pwd_dir=$(pwd)
 mkdir -p $configuration_dir
 sed -e 's/@identifier/DATA/' \
-    -e 's/@massMin/"50"/' \
+    -e 's/@massMin/"60"/' \
     -e 's/@massMax/"130"/' \
     -e 's/@binsForFit/30/' \
     -e 's/@tagPtMin/22/' \
@@ -224,7 +224,7 @@ sed -e 's/@identifier/DATA/' \
     -e 's/@setProcessVariableWeight//' \
     MuonTagAndProbe.template.py > $configuration_dir/MuonTagAndProbe_DATA.py
 sed -e 's/@identifier/MC/' \
-    -e 's/@massMin/"50"/' \
+    -e 's/@massMin/"60"/' \
     -e 's/@massMax/"130"/' \
     -e 's/@binsForFit/40/' \
     -e 's/@tagPtMin/22/' \
