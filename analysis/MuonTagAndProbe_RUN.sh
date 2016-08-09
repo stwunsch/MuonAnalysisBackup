@@ -2,7 +2,7 @@
 
 # Setup
 
-filename_DATA="../../data/TnPTree_80X_Run2016B_v2_GoldenJSON_Run271036to275125_incomplete.root ../../data/TnPTree_80X_Run2016B_v2_GoldenJSON_Run275126to275783.root ../../data/TnPTree_80X_Run2016C_v2_GoldenJSON_Run275126to275783.root ../../data/TnPTree_80X_Run2016C_v2_GoldenJSON_Run275784to276097.root"
+filename_DATA="../../data/TnPTree_80X_Run2016C_v2_GoldenJSON_Run276098to276384.root ../../data/TnPTree_80X_Run2016D_v2_GoldenJSON_Run276098to276384.root ../../data/TnPTree_80X_Run2016D_v2_GoldenJSON_Run276385to276811.root"
 echo "[INFO] Input files:" $filename_DATA
 
 filename_SUBTREE="subTree_IsoMu20.root"
