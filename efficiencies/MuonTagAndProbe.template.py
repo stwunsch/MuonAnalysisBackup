@@ -39,32 +39,29 @@ Variables = cms.PSet(
 Categories = cms.PSet(
     HighPt = cms.vstring('HighPt', 'dummy[pass=1,fail=0]'),
     tag_IsoMu22 = cms.vstring('Tag matched to IsoMu22', 'dummy[pass=1,fail=0]'),
-    Mu50 = cms.vstring('Mu50', 'dummy[pass=1,fail=0]'),
 )
 
 # Define expressions to implement custom categories
 # Leave it empty if you don't need this feature.
 Expressions = cms.PSet(
+    Exp_HighPt = cms.vstring("Exp_HighPt", "HighPt==1 && dzPV>-0.5 && dzPV<0.5 && dB>0.0 && dB<0.2 && relTkIso>0.0 && relTkIso<0.1", "HighPt", "dzPV", "dB", "relTkIso"),
 )
 
 # Define cuts on variables
 # Leave it empty if you don't need this feature.
 Cuts = cms.PSet(
+    Cut_HighPt = cms.vstring("Cut_HighPt", "Exp_HighPt", "0.5"),
 )
 
 # Select the parameter whose efficiency is measured
 Efficiencies = cms.PSet(
     MuonEfficiency = cms.PSet(
         UnbinnedVariables = cms.vstring("mass", @unbinnedVariableWeight),
-        EfficiencyCategoryAndState = cms.vstring("Mu50", "pass"),
+        EfficiencyCategoryAndState = cms.vstring("Cut_HighPt", "above"),
         BinnedVariables = cms.PSet(
             pair_probeMultiplicity = cms.vdouble(0.5, 1.5),
-            dzPV = cms.vdouble(-0.5, 0.5),
-            dB = cms.vdouble(0.0, 0.2),
             abseta = cms.vdouble(np.linspace(0, 2.4, 25)),
-            relTkIso = cms.vdouble(0, 0.1),
-            pt = cms.vdouble(52, 1000),
-            HighPt = cms.vstring('pass'),
+            pt = cms.vdouble(26, 1000),
             tag_IsoMu22 = cms.vstring('pass'),
             tag_pt = cms.vdouble(@tagPtMin, 1000),
             ),
